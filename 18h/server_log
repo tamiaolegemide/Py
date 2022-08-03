@@ -1,0 +1,1076 @@
+{"command": "get"}{"command": "get"}{"command": "get"}{"command": "get"}{"command": "get"}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3816", "page": 1}}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3807", "page": 1}}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3809", "page": 1}}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3741", "page": 1}}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3809", "page": 2}}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3720", "page": 1}}{"command": "end", "data": "https://18h.animezilla.com/manga/3809"}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3807", "page": 2}}{"command": "get"}{"command": "end", "data": "https://18h.animezilla.com/manga/3807"}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3816", "page": 2}}{"command": "get"}{"command": "end", "data": "https://18h.animezilla.com/manga/3816"}{"command": "get"}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3741", "page": 2}}{"command": "end", "data": "https://18h.animezilla.com/manga/3741"}{"command": "get"}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3720", "page": 2}}{"command": "end", "data": "https://18h.animezilla.com/manga/3720"}{"command": "get"}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3741", "page": 2}}{"command": "end", "data": "https://18h.animezilla.com/manga/3741"}{"command": "get"}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3720", "page": 2}}{"command": "end", "data": "https://18h.animezilla.com/manga/3720"}{"command": "get"}{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3803", "page": 1}}{"command": "get"}
+{"command": "get"}
+{"command": "get"}
+{"command": "get"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3741", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3816", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3807", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3809", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3741", "page": 2}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3741"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3720", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3807", "page": 2}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3807"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3816", "page": 2}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3816"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3816"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3720", "page": 2}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3720"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3809", "page": 2}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3809"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3720", "page": 2}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3720"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3809"}
+{"command": "get"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3803", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3803"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3803"}
+{"command": "get"}
+{"command": "get"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3739", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3739", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3739", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3739", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3739"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3739"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3739"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3739"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3739"}
+{"command": "get"}
+{"command": "get"}
+{"command": "get"}
+{"command": "get"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3773", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3773", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3773", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3773", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3773", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3773"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3773"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3773"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3773"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3773"}
+{"command": "get"}
+{"command": "get"}
+{"command": "get"}
+{"command": "get"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3700", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3700", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3700", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3741", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3741"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3809", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3809"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3807", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3807"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3816", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3816"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3720", "page": 1}}
+{"command": "get"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3720"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3803", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3739", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3803"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3739"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3773", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3700", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3773"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3732", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3700"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3732"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3766", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3811", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3766"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3811"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3757", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3785", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3757"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3710", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3785"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3710"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3789", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3779", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3789"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3779"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3775", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/784", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3775"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/2981", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/784"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2981"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2981"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3696", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3696"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3696"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3759", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3759", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3759"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3759"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3759"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3805", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3805", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3805"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3805"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3805"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3787", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3787", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3787"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3787"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3787"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3737", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3737", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3737"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3737"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3737"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3723", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3723", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3723"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3723"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3723"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3820", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3820", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3820"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3820"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3820"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3712", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3712", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3712"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3712"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3712"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3747", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3747", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3747"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3747"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3747"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/2246", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/2246", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2246"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2246"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2246"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3033", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3033", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3033"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3033"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3033"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3698", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3698", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3698"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3698"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3698"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3822", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3822", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3822"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3822"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3822"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3796", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3796", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3796"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3796"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3796"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3781", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3781", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3781"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3781"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3781"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3705", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3705", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3705"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3705"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3705"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3548", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3548", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3548"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3548"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3548"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3818", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3818", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3818"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3818"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3818"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3798", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3798", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3798"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3798"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3798"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3814", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3814", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3814"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3814"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3814"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3714", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3714", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3714"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3714"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3714"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/608", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/608", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/608"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/608"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/608"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3792", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3792", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3792"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3792"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3792"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3783", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3783", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3783"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3783"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3783"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3707", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3707", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3707"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3707"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3707"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3693", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3693", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3693"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3693"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3693"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3755", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3755", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3755"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3755"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3755"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3794", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3794", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3794"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3794"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3794"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3753", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3753", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3753"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3753"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3753"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3735", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3735", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3735"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3735"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3735"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3800", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3800", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3800"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3800"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3800"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3743", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3741", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3741"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3809", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3809"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3807", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3807"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3816", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3816"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3720", "page": 1}}
+{"command": "get"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3720"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3803", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3739", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3803"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3739"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3773", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3700", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3773"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3732", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3700"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3732"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3766", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3811", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3766"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3811"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3757", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3785", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3757"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3710", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3785"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3710"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3789", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3779", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3789"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3779"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3775", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3775", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3775"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3775"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3775"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/784", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/784", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/784"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/784"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/784"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/2981", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/2981", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2981"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2981"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2981"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3696", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3696", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3696"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3696"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3696"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3759", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3759", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3759"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3759"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3759"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3805", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3805", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3805"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3805"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3805"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3787", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3787", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3787"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3787"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3787"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3737", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3737", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3737"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3737"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3737"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3723", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3723", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3723"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3723"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3723"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3820", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3820", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3820"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3820"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3820"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3712", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3712", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3712"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3712"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3712"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3747", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3747", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3747"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3747"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3747"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/2246", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/2246", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2246"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2246"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2246"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3033", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3033", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3033"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3033"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3033"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3698", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3698", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3698"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3698"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3698"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3822", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3822", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3822"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3822"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3822"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3796", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3796", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3796"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3796"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3796"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3781", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3781", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3781"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3781"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3781"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3705", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3705", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3705"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3705"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3705"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3548", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3548", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3548"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3548"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3548"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3818", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3818", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3818"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3818"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3818"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3798", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3798", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3798"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3798"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3798"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3814", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3814", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3814"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3814"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3814"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3714", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3714", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3714"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3714"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3714"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/608", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/608", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/608"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/608"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/608"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3792", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3792", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3792"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3792"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3792"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3783", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3783", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3783"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3783"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3783"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3707", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3707", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3707"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3707"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3707"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3693", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3693", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3693"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3741", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3741"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3809", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3809"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3807", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3807"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3816", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3816"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3720", "page": 1}}
+{"command": "get"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3720"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3803", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3739", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3803"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3739"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3773", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3700", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3773"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3732", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3700"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3732"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3766", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3811", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3766"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3811"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3757", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3785", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3757"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3710", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3785"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3710"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3789", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3779", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3789"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3779"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3775", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/784", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3775"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/2981", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/784"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2981"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3696", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3759", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3696"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3759"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3805", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3787", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3805"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3737", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3787"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3737"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3723", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3820", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3723"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3820"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3712", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3747", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3712"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/2246", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3747"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/2246"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3033", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3698", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3033"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3698"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3822", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3796", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3822"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3781", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3796"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3781"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3705", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3548", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3705"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3548"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3818", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3798", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3818"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3814", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3798"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3814"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3714", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/608", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3714"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/608"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3792", "page": 1}}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3792", "page": 1}}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3792"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3792"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3792"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3783", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3783", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3783"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3783"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3783"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3707", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3707", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3707"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3707"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3707"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3693", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3693", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3693"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3693"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3693"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3755", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3755", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3755"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3755"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3755"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3794", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3794", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3794"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3794"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3794"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3753", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3753", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3753"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3753"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3753"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3735", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3735", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3735"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3735"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3735"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3800", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3800", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3800"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3800"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3800"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3743", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3743", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3743"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3743"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3743"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3777", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3777", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3777"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3777"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3777"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3771", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3771", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3771"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3771"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3771"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3625", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3625", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3625"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3625"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3625"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3678", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3678", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3678"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3678"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3678"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3676", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3676", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3676"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3676"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3676"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3629", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3629", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3629"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3629"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3629"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3655", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3655", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3655"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3655"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3655"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3601", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3601", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3601"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3601"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3601"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3596", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3596", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3596"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3596"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3596"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3674", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3674", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3674"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3674"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3674"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3651", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3651", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3651"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3651"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3651"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3653", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3653", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3653"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3653"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3653"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3615", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3615", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3615"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3615"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3615"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3619", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3619", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3619"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3619"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3619"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3594", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3594", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3594"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3594"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3594"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3664", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3664", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3664"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3664"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3664"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3613", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3613", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3613"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3613"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3613"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3590", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3590", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3590"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3590"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3590"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3586", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3586", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3586"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3586"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3586"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3584", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3584", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3584"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3584"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3584"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3611", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3611", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3611"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3611"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3611"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3588", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3588", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3588"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3588"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3588"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3627", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3627", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3627"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3627"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3627"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3638", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3638", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3638"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3638"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3638"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3659", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3659", "page": 1}}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3659"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3659"}
+{"command": "get"}
+{"command": "end", "data": "https://18h.animezilla.com/manga/3659"}
+{"command": "get"}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3623", "page": 1}}
+{"command": "set", "data": {"url": "https://18h.animezilla.com/manga/3623", "page": 1}}
+{"command": "get"}
