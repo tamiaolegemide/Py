@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>最新合集 - 人人为我 我为人人</title>
+<meta name="description" content="最新合集,人人为我,我为人人" />
+<meta name="keywords" content="最新合集,人人为我,我为人人" />
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<link rel='archives' title='人人为我 我为人人' href="https://bbs.huieiv.com/2048/simple/" /><link rel="alternate" type="application/rss+xml" title="RSS" href="https://bbs.huieiv.com/2048/rss.php?fid=3" />
+<base id="headbase" href="https://bbs.huieiv.com/2048/" />
+<link rel="stylesheet" type="text/css" href="images/wind-reset.css" /><style type="text/css">
+body{font-size:12pt;background-color:#F8FFFF;font-family:Verdana; color:#333;}
+h3,h2{display:inline;}
+h2 a{color:#000;font-size:14px;}
+h3 a{color:#333;font-size:14px;}
+.subject{ font-size:15px;} /*列表标题*/
+.v-in input{vertical-align:baseline;} /*列表下滑线对齐*/
+h4{margin:20px 0 10px;font-size:1.1em}
+/*a link 基本连接颜色*/
+a{text-decoration:none;color:#333333;}
+a:hover{text-decoration:underline;}
+/*内补丁*/
+.pdD{padding:.3em .5em}
+.p10{padding:10px;}
+/*main color 数值自定义*/
+.f_one,.t_one,.r_one{background:#ffffff;}
+.f_two,.t_two,.r_two{background:#f3f9fb;}
+/*按钮*/
+.btn{border-color:#1b72af;margin-right:1em;color:#fff;background:#1b72af;}
+.btn,.bt{border-width:1px;cursor:pointer;padding:.1em 1em;*padding:0 1em;font-size:9pt; line-height:130%; overflow:visible;-moz-border-radius:2px;-khtml-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;}
+.bt{cursor:pointer;background:#f7f7f7 url(images/wind/btn.png) 0 -52px repeat-x;vertical-align:middle;border-color: #e4e4e4 #cccccc #cccccc #e4e4e4;}
+/*伪类按钮*/
+.bta{cursor:pointer;color:#333333;padding:2px 8px;background:#f3f9fb;margin:2px;white-space:nowrap;border:1px solid #d5e6ed;-moz-border-radius:2px;-khtml-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;}
+.abtn2 a{border:1px solid #fbfdff;padding:2px 4px 1px;color:#555;}
+.abtn2 a:hover{border:1px solid #2195d2;color:#2195d2;text-decoration:none;background:#fff;}
+/*form*/
+textarea,input,select{font:12px Arial;padding:1px 3px 0 3px;vertical-align:middle;margin-bottom:1px;}
+select{border:solid 1px #d5e6ed;}
+.input{border: 1px solid; border-color: #c0c0c0 #ededed #ededed #c0c0c0;padding:2px 0px 2px 1px;font-size:1.0em;vertical-align:middle;color:#000;}
+textarea{border: 1px solid; border-color: #c0c0c0 #ededed #ededed #c0c0c0;}
+/*全局*/
+.new_topbar{width:100%;margin:auto;min-width:800px;overflow:hidden;}
+#header{min-width:980px;background:url(images/wind/bg.png) 0 -2px repeat-x}
+#head{width:100%;max-width:1615px;margin:0 auto;}
+#nav{width:100%;max-width:1615px;margin:auto;height:35px;background-color:#176eac;}
+#main{width:100%;max-width:1615px;margin:0 auto;}  /*内容*/#footer{padding:0 0 10px;width:100%;margin:0 auto;max-width:1600px;}
+.bottom{margin:0 auto 10px;border:1px solid #d5e6ed;background:#f3f9fb;}
+.bottom ul{ padding:5px; margin:0; list-style:none;}
+.bottom ul li{ padding:0 10px 0 0;display:inline;}
+.bottom ul li a{white-space:nowrap;}/*位置*/
+#breadCrumb{padding:10px;color:#999;background:url(images/wind/bg.png) 0 -10px repeat-x;border-top:1px solid #a6cbe7;zoom:1;}
+/*公告*/
+.noticebg{background:url(images/wind/bg.png) 0 -10px repeat-x;}
+#notice{padding:10px;background:url(images/wind/file/anc.png) 12px 12px no-repeat;}
+#notice li{list-style:none;float:left;white-space:nowrap;padding-left:1.6em;height:18px;}
+#notice a{padding-right:.5em;}
+/*文字ad*/
+.ad-text{margin:0 auto 8px;border:1px solid #d5e6ed;border-bottom:0;background:#ffffff;}
+.ad-text .tr3 td,.ad-text .tr3 th{border-bottom:1px solid #d5e6ed;padding:.4em .6em;}
+/*栏目导航*/
+#nav-global,.nav-left,.nav-right{background:url(images/wind/nav-bg.png);}
+.nav-left,.nav-right{width:5px;height:35px;}
+.nav-left{ background-position:0 0;_margin-right:-3px;}
+.nav-right{ background-position:0 -70px;_margin-left:-3px;}
+#nav-global{ background-position:0 -35px;height:35px;overflow:hidden;}
+#nav-global ul{font-size:14px;padding-left:10px;}
+#nav-global li,#nav-global li a{background:url(images/wind/nav-cur.png) 999em 999em no-repeat;}
+#nav-global li{margin:5px 0 0 0;float:left;}
+#nav-global li a{float:left;color:#ffffff;padding:0 10px;height:27px;line-height:23px;outline:none;font-weight:700;}
+#nav-global li a:hover{color:#ffea00; text-decoration:none;}
+#nav-global .current{background-position:left top;line-height:33px;height:33px;margin:2px 5px 0;}
+#nav-global .current a,#nav-global .current a:hover{background-position:right top;color:#1b72af;display:inline;line-height:33px;height:33px;padding:0 19px; text-decoration:none;}
+#td_mymenu,#td_mymenu_old{background:url(images/wind/shortcut.gif) 0 0 no-repeat;color:#555;}/*快捷导航*/
+#td_mymenu_old{background-position:0px bottom;color:#888;}
+#nav-s{background:url(images/wind/nav-search.png);width:270px;height:35px;overflow:hidden; float:right;_margin-left:-3px;}
+#nav-s .fr{margin:9px 20px 0 0;*margin:11px 20px 0 0;line-height:14px;}
+.s-btn,.s-input{background:none;border:0;}
+.s-btn{ cursor:pointer;width:55px;height:21px;vertical-align:middle !important;vertical-align:baseline;margin:5px 0 0 1px;}
+.s-input{height:17px;padding:4px 1px 0;width:150px;margin:5px 0 0 10px;float:left;}
+.index-info{background:#ffffff;width:100%;max-width:1615px;margin:0 auto;}
+.index-info td{padding:3px 0 2px 3px;line-height:24px;}
+.index-info a{margin-right:3px;white-space:nowrap;}
+.forum-info{background:#ffffff;padding:0 10px 6px 10px;line-height:1;border-bottom:1px solid #a6cbe7;}
+/*用户登录*/
+.user-table td{padding:1em 1em .5em 2em;}
+/*table*/
+.t{border:1px solid #a6cbe7;background:#ffffff;padding:1px;}
+.t table{width:100%;*border:1px solid #ffffff;}
+.t3{margin:5px auto;max-width: 1615px;}
+.t5{border:1px solid #d5e6ed;}
+.t,.t5{margin:0 auto 10px; height:auto; overflow:hidden;}
+/*table head*/
+.h{border-bottom:1px solid #c5d8e8;background:#ecf6fb;text-align:left;color:#1b72af;padding:2px 10px 0; line-height:220%;}
+.h span{font-weight:normal;}
+.h h2{font-weight:bold}
+.h a{font-family:Arial;color:#1b72af}
+.h span a,.h span{color:#1b72af;}
+.closeicon{margin-top:.3em}
+.cate_fold{padding:0 5px 0 5px;margin-bottom:2px;text-decoration:none;}
+.cate_fold:hover{text-decoration:none;}
+/*table tr1*/
+.tr1 th{padding:5px 10px;text-align:left;vertical-align:top;font-weight:normal;}
+.tr1 td.td1{border-bottom:1px solid #d5e6ed;}
+/*table tr2*/
+.tr2{background:#ffffff url(images/wind/tr2.png) 0 bottom repeat-x;color:#666666;}
+.tr2 td,.tr2 th{line-height:18px;border-bottom:1px solid #c5d8e8;padding:2px 6px;*padding:4px 6px 1px;}
+.tr2 a{color:#1b72af;margin:0 2px 0;}
+/*table tr3*/
+.tr3 td,.tr3 th{border-bottom:1px solid #d5e6ed;padding:.6em;line-height:1.3;}
+.tr3 th{text-align:left;font-weight:normal;}
+.z .tr3:hover{background:#f3f9fb;}
+.tr td,.tr th{padding:2px}
+.tr5 td{border-right:1px solid #d5e6ed;border-bottom:1px solid #d5e6ed;padding-left:.5em;}/*帖子表格*/
+/*浏览页*/
+h1,.read_h1{font-size:16px;margin:15px;color:#3366cc; font-weight:700;line-height:1;}
+.honor{color:#777;padding:0 10px 5px 0;overflow:hidden;}
+.tpc_content{font-family:Arial;padding:0 15px 20px 15px;margin:0;line-height:2em;}
+.tpc_content font{line-height:1.5em;}
+.tpc_content a{text-decoration:none;color:#0070AF;}
+.tpc_content a:hover{text-decoration:underline}
+.tpc_content ol{list-style-type:decimal;}
+.tpc_content ul{list-style-type:disc;}
+.tips{background:#f3f9fb;border:1px solid #d5e6ed;padding:3px 5px;}
+.tips2{padding:10px 0;border-top:1px dashed #d5e6ed;}
+.tips,.tips2{margin:5px 15px 15px 15px;text-align:left;line-height:24px;float:left;display:inline;}
+.tips2 li{list-style:none;width:30%;height:24px;min-width:210px;margin:0 10px 0 0;float:left;overflow:hidden;text-overflow:ellipsis;}
+.tiptop{border-bottom:1px dashed #ccc ;padding:0 0 0 1px;height:27px;line-height:27px;margin:0 15px;}
+.tipad{margin:20px 15px 10px;}
+.tipad .fr a{color:#888;}
+blockquote{padding-left:1em;}
+.blockquote3{clear:left;border:1px dashed #CCC;background:#f7f7f7 url(images/blockquote3.png) right top no-repeat;margin:10px 0 0;padding:5px 10px;}
+.blockquote3 .quote{color:#999;font-size:12px;}
+.blockquote3 .text{padding:0 10px 10px 10px;}
+.blockquote{zoom:1;padding:5px 8px 5px;line-height:1.3;border:1px solid #fcefbb;background:#fffff3;color:#000;margin:0 15px;}
+.block-img{background:#fffae1 url(images/attention.png) 8px 6px no-repeat;padding-left:28px;margin:0 15px 10px;}
+.blockquote2{border: 1px solid; border-color: #c0c0c0 #ededed #ededed #c0c0c0;margin:0px;padding:0 0 0 2em;line-height:2em;overflow:hidden;background:#fff}
+.blockquote2 ol{margin:0 0 0 1.5em;padding:0;}
+.blockquote2 ol li{border-left:1px solid #ccc;background:#f7f7f7;padding-left:10px;font-size:12px;font-family:"Courier New" serif;list-style-type:decimal-leading-zero;padding-right:1em;}
+.blockquote2 ol li:hover{background:#fff;color:#008ef1;}
+.blockquote2 ol li{list-style-type:decimal;}
+.read_form{border-top:1px solid #d5e6ed;border-left:1px solid #d5e6ed;background:#f3f9fb;}
+.read_form td{height:20px;padding:0 5px;border-right:1px solid #d5e6ed;border-bottom:1px solid #d5e6ed;}
+/*pages*/
+.pages a,.pages b,.pages .pagesone{display:block;float:left;margin-right:3px;}
+.pages a{border:1px solid #d5e6ed;background:#ffffff;padding:0 7px;}
+.pages b,.pages a:hover{background:#1b72af;color:#ffffff;border:1px solid #1b72af;text-decoration:none;padding:0 7px;}
+.pages .pagesone{border:1px solid #d5e6ed;background:#ffffff;font:11px Verdana;line-height:18px;height:18px;padding-right:1px;}
+.pages input{border:1px solid #d5e6ed;padding:0;font:10px/12px Verdana;margin-top:1px;float:left;height:14px;}
+.pages .pagesone span{float:left;margin:0 5px;}
+.pages .c{width:1px;}
+.pages button{height:16px;border:1px solid #a6cbe7;background:#d5e6ed;color:#1b72af;margin:1px 0 0 1px;cursor:pointer;float:left;line-height:12px;}
+/*5像素圆角*/
+.y-bg2,.y-bg3,.y-bg4{background:#ffffff;}
+.y-bg{margin:0 4px;border-top:1px solid #d5e6ed;}
+.y-bg2{margin:0 2px;height:1px;border:2px solid #d5e6ed;border-top:0;border-bottom:0;overflow:hidden;}
+.y-bg3{margin:0 1px;height:2px;border:1px solid #d5e6ed;border-top:0;border-bottom:0;overflow:hidden;}
+.y-bg4{padding:0 10px;border:1px solid #d5e6ed;border-top:0;border-bottom:0;overflow:hidden;}
+/*menu*/
+.menu{position:absolute;background:#fff;border:1px solid #d5e6ed;}
+.menu a{display:block;padding:4px 8px;}
+/*下拉框*/
+.menu-post{border:1px solid #a6cbe7;}
+.menu-post .menu-b{background:#ffffff;border:3px solid #d5e6ed;}
+.menu_tasksA .menu-b{border-width:8px;}
+/*弹出框 popout*/
+.popoutContent{background:#ffffff;border:1px solid #a6cbe7;}
+.bgcorner1,.bgcorner2,.bgcorner3,.bgcorner4,.pobg1,.pobg2,.pobg3,.pobg4{filter:Alpha(opacity=90);_filter:Alpha(opacity=90);opacity:.9;overflow:hidden; z-index:1005; line-height:0 }
+.bgcorner1,.bgcorner2,.bgcorner3,.bgcorner4{width:5px;height:5px;background:#a6cbe7;}
+.bgcorner1{background-position: 0 0 }
+.bgcorner2{background-position: -5px 0 }
+.bgcorner3{background-position: -5px -5px}
+.bgcorner4{background-position:0 -5px}
+.pobg1,.pobg2,.pobg3,.pobg4{ background:#a6cbe7;}
+.pobg1{height:5px; }
+.pobg2{width:5px;}
+.pobg3{height:5px;}
+.pobg4{width:5px;}
+.popoutContent td{padding:.5em .6em;border-bottom:1px solid #d5e6ed;}
+.popoutContent td td{border-bottom:none;padding:.3em 1em .3em 0;}
+/*span color 数值自定义*/
+.black,.black a{color:#333}
+.s1{color:#008000;} /*绿*/
+.s2{color:#984B98;} /*紫*/
+.s3{color:#ff6600;} /*橙*/
+.s4,.s4 a{color:#3366cc;} /*蓝*/
+.s5 a{color:#1b72af;}
+.gray,.gray a{color:#888888;} /*次要字颜色*/
+.gray2,.gray2 a{color:#bbbbbb;}
+.red{color:#ff0000;}/*红*//*登录*/
+.mr5{margin-right:5px;}
+a.select_arrow{background:url(images/select_arrow.gif) no-repeat;display:block;text-indent:-2000em;height:15px;width:15px;margin:0 2px 0 0;overflow:hidden;}
+a.select_arrow:hover{background:url(images/select_arrow_over.gif) no-repeat;}
+.sel_name li{border-bottom:1px solid #d5e6ed;}
+/*tab*/
+.pw_list_a{border-bottom:1px solid #c5d8e8;background:#ecf6fb;color:#1b72af;}
+.pw_list_a li a{color:#1b72af;}
+.pw_list_a .current a{border:1px solid #a6cbe7;background:#ffffff;border-bottom:0;color:#666666;}
+.pw_list_a li.none a{border:1px solid #a6cbe7;background:#F8FFFF;margin-left:5px;}
+ /*自定义css*/
+</style>
+<style type="text/css">/*竖线风格输出*/
+.tr3 td,.tr3 th{border-right:1px solid #d5e6ed;}
+.y-style{text-align:center;}
+.tr1 th{border-right:1px solid #d5e6ed;}
+.tr1 td.td1{border-left:0}
+</style>
+<!--[if IE]>
+<style type="text/css">
+.tr1 td.td1{border-top:0}
+.t4{padding:0}
+.t table{border-collapse:collapse;}
+.t {padding:0}
+</style>
+<![endif]--><SCRIPT type="text/javascript" LANGUAGE="JavaScript" src="js/core/core.js"></SCRIPT>
+<script type="text/javascript" language="JavaScript" src="js/pw_ajax.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/app_choose.js"></script>
+<script language="JavaScript">
+var imgpath = 'images';
+var verifyhash = 'deaab274';
+var modeimg = '';
+var modeBase = '';
+var winduid = '';
+var windid	= '';
+var groupid	= 'guest';
+var basename = '';
+var temp_basename = '';
+</script>
+</head>
+<body onkeydown="try{keyCodes(event);}catch(e){}"><div class="new_topbar_wrap">
+<div class="new_topbar">
+<div class="cc"> <span class="new_topbar_left">
+<a href="login.php" title="登录" hidefocus="true">登录</a><a href="register.php" hidefocus="true">注册</a> </span> <ul class="new_topbar_right">
+<li><a href="https://0531home.com/" id="td_ID43" target="_blank"><font color="#FF0000">地址发布页1</font></a></li>
+<li><a href="https://xzlady.com/" id="td_ID42" target="_blank"><font color="#FF0000">地址发布页2</font></a></li>
+<li><a href="/2048/2048.rar" id="td_ID83" target="_blank"><font color="#0000FF">地址发布器下載</font></a></li>
+<li><a href="javascript:zh_tran('s');">简体</a></li>
+<li><a href="javascript:zh_tran('t');">繁体</a></li> </ul></div>
+</div>
+</div>
+<div id="header">
+<div id="head">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td><a href="https://bbs.huieiv.com/2048/" class="fl"><a href="/2048"><img src="/2048/logo.png" width="288" height="78"></a></td>
+<td id="banner" align="right">
+</td>
+</tr>
+</table>
+</div>
+<div class="nav-wrap">
+<div id="nav">
+<span class="nav-left fl"></span> <div id="nav-s">
+<a href="javascript:;" class="fr" onclick="goAdvanceSearch();return false;">高级</a>
+<form name="sF" action="search.php?#submit" method="post">
+<input type="hidden" name="step" value="2" />
+<input type="hidden" name="method" value="AND" />
+<input type="hidden" name="sch_area" value="0" />
+<input type="hidden" name="f_fid" value="all" />
+<input type="hidden" name="sch_time" value="all" />
+<input class="s-input" type="text" id="keyword" name="keyword" />
+<input class="s-btn" type="submit" name="submit" value=" " />
+</form>
+</div>
+<script language="JavaScript">
+function goAdvanceSearch(){
+var keyword = getObj('keyword').value;
+var url = 'search.php?advanced=1&keyword='+keyword;
+window.location = url;
+}
+</script>
+<div id="nav-global"><ul class="cc">
+<li class="current"><a href="index.php" id="td_KEYbbs">首页</a></li><li><a href="https://clgoes.com" id="td_ID86" target="_blank">番號搜索</a></li>
+</ul>
+</div></div>
+</div>
+</div>
+<div class="index-info cc">
+<table cellpadding="0" cellspacing="0" width="100%" style="table-layout:fixed;">
+<tr class="vt"><td class="tal s5" max-width="450">
+<form action="login.php" name="login_FORM" method="post">
+<input type="hidden" name="jumpurl" value="http://bbs.huieiv.com/2048/thread.php?fid-3-page-1.html" />
+<input type="hidden" name="step" value="2" />
+<input type="hidden" name="cktime" value="31536000" />
+<div class="cc">
+<div class="fl input mr5" style="padding-left:3px;">
+<input class="fl gray" onfocus="navCheckinput(this);" onblur="navCheckinput(this);" style="width:85px;border:0;padding:0;" name="pwuser" id="nav_pwuser" value="输入用户名" tabindex="10" />
+<a href="javascript:;" title="切换登入方式" class="select_arrow fl" onclick="showLoginType();">下拉</a>
+</div>
+<input class="input fl mr5" type="password" name="pwpwd" style="width:85px;" onfocus="if(IsElement('nav_logintab')) getObj('nav_logintab').style.display='';this.value='';var o_nav_logintab = IsElement('nav_logintab') ? getObj('nav_logintab') : ''; PW_popEvent(o_nav_logintab);" tabindex="11" />
+<input class="btn fl" type="submit" value="登录" tabindex="8" /></div>
+<input type="hidden" name="lgt" id="nav_lgt" value="0">
+<div class="t5 f_two sel_name" id="login_type_list" style="width:5em;padding:0 10px 5px;position:absolute;margin-left:25px;display:none;z-index:1">
+<ul>
+<li><a href="javascript:;" onclick="selectLoginType('0','用户名')">用户名</a></li>
+<li><a href="javascript:;" onclick="selectLoginType('1','UID')">UID</a></li>
+<li><a href="javascript:;" onclick="selectLoginType('2','Email')">Email</a></li>
+</ul>
+</div>
+<div id="nav_logintab" style="width:330px;position:absolute;margin-top:.2em;display:none;z-index:2">
+<div class="t5 f_two" style="line-height:25px;">
+<table cellspacing="0" cellpadding="1" align="center" style="width:95%; margin:auto">
+<tr>
+<td width="20%">安全问题</td>
+<td><select name="question" onchange="showcustomquest(this.value)" tabindex="13">
+<option value="0">无安全问题</option>
+<option value="1">我爸爸的出生地</option>
+<option value="2">我妈妈的出生地</option>
+<option value="3">我的小学校名</option>
+<option value="4">我的中学校名</option>
+<option value="5">我最喜欢的运动</option>
+<option value="6">我最喜欢的歌曲</option>
+<option value="7">我最喜欢的电影</option>
+<option value="8">我最喜欢的颜色</option>
+<option value="-1">自定义问题</option></select>
+<input id="othercustomquest" style="display:none" name="customquest" class="input" size="17" tabindex="14" />
+</td>
+</tr>
+<tr>
+<td>您的答案</td>
+<td><input name="answer" class="input" size="30" tabindex="15" /></td>
+</tr>
+</table>
+</div>
+</div>
+</form>
+<script language="JavaScript">
+var default_login_type = '0';
+var default_input_value = '输入' + '用户名';function showLoginType(){
+if(getObj('login_type_list').style.display=='none'){
+getObj('login_type_list').style.display = '';
+} else {
+getObj('login_type_list').style.display = 'none';
+}
+if (IsElement('nav_logintab')){
+getObj('nav_logintab').style.display = 'none';
+}
+}function showcustomquest(qid){
+getObj('othercustomquest').style.display = qid==-1 ? '' : 'none';
+}
+function navCheckinput(obj){
+if (obj.className.indexOf('gray')!=-1) {
+obj.value = '';
+obj.className = obj.className.replace('gray', 'black');
+} else if (obj.value=='') {
+obj.value = obj.defaultValue = default_input_value;
+if (obj.className.indexOf('black') == -1) {
+obj.className += ' gray';
+} else {
+obj.className = obj.className.replace('black', 'gray');
+}
+}
+}
+function changeDefaultInputValue(text){
+getObj('nav_pwuser').value = text;
+getObj('nav_lgt').value = default_login_type;
+}function selectLoginType(type,text){var nav_pwuser = getObj('nav_pwuser');
+nav_pwuser.value = '输入'+text;
+if (nav_pwuser.className.indexOf('black') != -1) {
+nav_pwuser.className = nav_pwuser.className.replace('black', 'gray');
+}
+getObj('nav_lgt').value = type;
+getObj('login_type_list').style.display = 'none';
+}changeDefaultInputValue(default_input_value);
+</script>
+</td>
+<td class="tar">
+<a href="search.php?sch_time=newatc" id="td_KEYlastpost">最新帖子</a>
+<a href="javascript:;" id="td_KEYhack">社区服务</a>
+<div id="menu_KEYhack" class="menu menu-post cc" style="display:none;">
+<div class="menu-b" style="width:9em;">
+<p><a href="hack.php?H_name=medal" id="td_KEYhack_medal">勋章中心</a></p>
+<p><a href="hack.php?H_name=lottery" id="td_KEYhack_lottery"></a></p>
+</div>
+</div>
+<a href="sort.php" id="td_KEYsort">统计排行</a>
+<div id="menu_KEYsort" class="menu menu-post cc" style="display:none;">
+<div class="menu-b" style="width:9em;">
+<p><a href="sort.php" id="td_KEYsort_basic">基本信息</a></p>
+<p><a href="sort.php?action=ipstate" id="td_KEYsort_ipstate">到访IP统计</a></p>
+<p><a href="sort.php?action=team" id="td_KEYsort_team">管理团队</a></p>
+<p><a href="sort.php?action=admin" id="td_KEYsort_admin">管理操作</a></p>
+<p><a href="sort.php?action=online" id="td_KEYsort_online">在线会员</a></p>
+<p><a href="sort.php?action=member" id="td_KEYsort_member">会员排行</a></p>
+<p><a href="sort.php?action=forum" id="td_KEYsort_forum">版块排行</a></p>
+<p><a href="sort.php?action=article" id="td_KEYsort_article">帖子排行</a></p>
+</div>
+</div>
+<a href="faq.php" id="td_KEYfaq">帮助中心</a>
+</td></tr></table></div>
+<div id="menu_skin" class="menu menu-post cc" style="display:none;">
+<div class="menu-b" style="width:9em;">
+<a href="javascript:;" onclick="window.location=('/2048/thread.php?fid=3&amp;page=1&amp;skinco=Touch');return false;">Touch</a>
+<a href="javascript:;" onclick="window.location=('/2048/thread.php?fid=3&amp;page=1&amp;skinco=wind');return false;"><font color=#3366cc>■wind</font></a>
+</div>
+</div>
+<div id="menu_shortcut" class="menu menu-post cc" style="display:none;">
+<div class="menu-b" style="width:9em;width:150px;">
+<a href="thread.php?fid-56.html">互动交流</a>
+<a href="thread.php?fid-92.html">精品收录</a>
+<a href="thread.php?fid-57.html">聚友客栈</a>
+<a href="thread.php?fid-287.html">赚米专区</a>
+<a href="thread.php?fid-94.html">稀有首發</a>
+<a href="thread.php?fid-111.html">主播實錄</a>
+</div>
+</div>
+<div class="main-wrap">
+<div id="main">
+<style type="text/css">
+.tr3 td,.tr3 th{padding:2px 4px;line-height:1.5;}
+.t_search{border:1px solid #a6cbe7;background:#ffffff;margin-left:5px;height:18px;overflow:hidden;}
+.t_s_ip{border:1px solid #fff;padding:1px 2px 0;float:left;height:15px; font:12px/14px Arial;background:#fff; width:85px;}
+.t_s_btn{float:left;background:#f3f9fb url(images/t_search.png) center -1px no-repeat;border:1px solid #fff;border-left:1px solid #d5e6ed;cursor:pointer;width:25px;height:18px;overflow:hidden;}
+.t_search input::-moz-focus-inner{border-color:transparent!important;}
+</style>
+<div id="menu_forumlist" style="display:none;">
+<div class="sbar-box-a" style="width:700px;">
+<div class="sbar-title" style="cursor:pointer" onclick="try{pw_bottom.hiddenTab();read.close();}catch(e){read.close();}">
+<span class="menu-hidden aimg">隐藏</span>
+<span id="title_forumlist" class="b">快速浏览</span>
+</div>
+<div class="sbar-box-b">
+<div class="forum-list-popout">
+<dl class="cc">
+<dt>
+<a href="index.php?cateid-1.html">总板块</a>
+</dt>
+<dd class="cc">
+<a href="thread.php?fid-2.html" onclick="return pwForumList(true,gIsPost,2);"><span>新片速递</span></a>
+<a href="thread.php?fid-7.html" onclick="return pwForumList(true,gIsPost,7);"><span>图片专区</span></a>
+<a href="thread.php?fid-273.html" onclick="return pwForumList(true,gIsPost,273);"><span>美图秀秀</span></a>
+<a href="thread.php?fid-92.html" onclick="return pwForumList(true,gIsPost,92);"><span>精品收录</span></a>
+<a href="thread.php?fid-75.html" onclick="return pwForumList(true,gIsPost,75);"><span>免空網盤</span></a>
+<a href="thread.php?fid-41.html" onclick="return pwForumList(true,gIsPost,41);"><span>綜合資源</span></a>
+<a href="thread.php?fid-102.html" onclick="return pwForumList(true,gIsPost,102);"><span>文学欣赏</span></a>
+<a href="thread.php?fid-56.html" onclick="return pwForumList(true,gIsPost,56);"><span>互动交流</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div id="breadCrumb" class="cc">
+<span class="fr">
+</span>
+<a href="https://bbs.huieiv.com/2048/index.php?m=bbs" title="人人为我 我为人人">人人为我 我为人人</a> &raquo; <a href="thread.php?fid-2.html">新片速递</a> &raquo; <a href="thread.php?fid-3.html">最新合集</a>
+<span id="shortcut">
+<a style="cursor:pointer;" onclick="javascript:shortCut();" title="将本版块添加到我的书签"><img src="images/wind/thread/cancel.gif" align="absbottom" style="margin-bottom:2px;" /></a>
+</span>
+</div>
+<style>.TOP_PD{width:100%;text-align:center;display:inline-block!important}.TOP_PD2{width:100%;text-align:center;display:inline-block!important}.PD_TAC_BOX{display:inline-block;max-width:100%;margin:0 auto}.PD_TAC_BOX li{padding:0;width:auto;min-width:100px;height:36px;float:left;text-align:center;list-style-type:none;margin:0px!important}.PD_TAC_BOX{display:inline-block;max-width:100%;margin:0 auto;float:left}.PD_TAC_BOX li a{font-size:20px;font-weight:bold}</style><div class="tac" style="margin:.5em 0 0;"><div class="TOP_PD"><div class="PD_TAC_BOX"><li><a href="/htm/a1.htm" target="_BLANK" style="color: red">亚博美女赌场</a>&nbsp;&nbsp;</li><li><a href="/htm/a4.htm" target="_BLANK" style="color: blue">重金担保皇冠</a>&nbsp;&nbsp;</li><li><a href="/htm/a8.htm" target="_BLANK" style="color: green">信誉凤凰娱乐</a>&nbsp;&nbsp;</li><li><a href="/htm/a5.htm" target="_BLANK" style="color: red">澳门皇冠赌场</a>&nbsp;&nbsp;</li><li><a href="/htm/a6.htm" target="_BLANK" style="color: green">逢赌必赢棋牌</a>&nbsp;&nbsp;</li><li><a href="/htm/a7.htm" target="_BLANK" style="color: red">王者信誉棋牌</a>&nbsp;&nbsp;</li><li><a href="/htm/b4.htm" target="_BLANK" style="color: blue">开元棋牌官网</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/b1.htm" target="_BLANK" style="color: green">澳門威尼斯人</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/sg.htm" target="_BLANK" style="color: red">澳门赌场直营</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/bba.htm" target="_BLANK" style="color: blue">拉斯维加斯</a>&nbsp;&nbsp;</li>
+</div></div><div class="TOP_PD2"><div class="PD_TAC_BOX">
+<li><a href="/htm/b9.htm" target="_BLANK" style="color: red">威尼斯人赌场</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/a2.htm" target="_BLANK" style="color: blue">澳门葡京赌场</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/b5.htm" target="_BLANK" style="color: red">9 1 福利视频</a>&nbsp;&nbsp;</li><li><a href="/htm/b2.htm" target="_BLANK" style="color: green">银河老牌赌城</a>&nbsp;&nbsp;</li><li><a href="/htm/b6.htm" target="_BLANK" style="color: red">同城在线约炮</a>&nbsp;&nbsp;</li><li><a href="/htm/b3.htm" target="_BLANK" style="color: blue">加人约炮大群</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/b7.htm" target="_BLANK" style="color: green">兼职少妇学生</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/b10.htm" target="_BLANK" style="color: red">鲍鱼聚合直播</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/vk.htm" target="_BLANK" style="color: blue">o 良家小姐 o</a></li>
+</div></div></div><div class="c"></div>
+<div class="c" id="c"></div>
+<div class="t3 cc">
+<span class="fr"><a href="post.php?fid=3" title="发表新帖"><img src="images/wind/post.png" id="td_post" /></a></span>
+<div style="padding-top:18px;" class="cc">
+<span class="fl"><div class="pages"><a href="thread.php?fid-3-page-1.html" class="b">&laquo;</a><b>1</b><a href="thread.php?fid-3-page-2.html">2</a><a href="thread.php?fid-3-page-3.html">3</a><a href="thread.php?fid-3-page-4.html">4</a><a href="thread.php?fid-3-page-5.html">5</a><a href="thread.php?fid-3-page-589.html" class="b">&raquo;</a><span class="pagesone"><span>Pages: 1/589</span><input type="text" size="3" onkeydown="javascript: if(event.keyCode==13){ location='thread.php?fid=3&page='+this.value+'';return false;}"><button onclick="javascript:  location='thread.php?fid=3&page='+this.previousSibling.value+'';return false;">Go</button></span></div></span>
+</div>
+</div>
+<div id="menu_post" class="menu menu-post cc f14 tac" style="display:none;">
+<div class="menu-b" style="width:100px;">
+<a href="post.php?fid=3" title="新 帖" hidefocus="true">新 帖</a>
+</div>
+</div>
+<div class="t z" style="margin:auto">
+<table cellspacing="0" cellpadding="0" width="100%" id="ajaxtable"><tr><th colspan="6">
+<div class="pw_list_a pr pw_maxlist">
+<div id="menu_special" class="menu-post tac" style="display:none;">
+<div class="menu-b f14">
+<ul style="width:77px;*padding-left:5px;line-height:2">
+<li><a href="thread.php?fid-3.html">全 部</a></li>
+<li><a href="thread.php?fid-3-special-1.html">投 票</a></li>
+<li><a href="thread.php?fid-3-special-2.html">活 动</a></li>
+<li><a href="thread.php?fid-3-special-3.html">悬 赏</a></li>
+<li><a href="thread.php?fid-3-special-4.html">商 品</a></li>
+<li><a href="thread.php?fid-3-special-5.html">辩 论</a></li>
+</ul>
+</div>
+</div>
+<ul>
+<li id="thread_type_all"><a href="thread.php?fid-3.html#c">全部</a></li>
+<span id="t_typedb"></span>
+</ul>
+<style>
+.unchk, .chked {
+padding-left: 15px;
+line-height: 15px;
+background: url(images/atarget.png) no-repeat 0 3px;
+color: #000000;
+cursor: pointer;
+margin-top: 7px;
+margin-right: 20px;
+}
+.chked {
+background-position: 0 -37px;
+}
+</style><a href="thread.php?fid-3-search-img-page-1.html" class="unchk" title="图片模式浏览帖子" style="float: right;text-decoration: none;">图文模式</a>
+</div>
+<script language="javascript">
+setCurrent('thread_type_all','thread_type_all','current');
+</script>
+</th>
+</tr><tbody style="table-layout:fixed;">
+<tr class="tr2">
+<td style="width:2%" class="tac y-style"></td>
+<td>
+</td>
+<script language="JavaScript">
+    var orderThreadsClass = {
+ 	orderThreads : function(orderway){
+var orderway = orderway || 'lastpost';
+var form = document.createElement("form");
+form.action = "thread.php?fid=3&page=1&";
+form.method = "post";
+var h_type = this.createInput("hidden","type","0");
+var h_search = this.createInput("hidden","search","1000");
+var h_special = this.createInput("hidden","special","0");
+var h_orderway = this.createInput("hidden","orderway",orderway);
+var h_asc = this.createInput("hidden","asc","DESC");
+form.appendChild(h_type);
+form.appendChild(h_search);
+form.appendChild(h_special);
+form.appendChild(h_orderway);
+form.appendChild(h_asc);
+document.body.appendChild(form);
+setTimeout(function(){/*ie6*/
+form.submit();
+},0);
+return false;
+},
+createInput : function(type,name,value){
+var hidden = document.createElement("input");
+hidden.type = type;
+hidden.name = name;
+hidden.value = value;//↓
+return hidden;
+}
+    	}
+    	function orderThreads(orderway){
+    	orderThreadsClass.orderThreads(orderway);
+    }
+</script><td style="width:120px;" class="y-style">作者</td>
+<td style="width:80px" class="tal y-style">回复</td>
+<td style="width:120px;" class="y-style">最后发表</td>
+</tr>
+<tr align="middle" class="tr3 t_one">
+<td class="tac"><img src="images/wind/thread/anc.gif" /></td>
+<th>&nbsp站点公告: <a href="/2048/faq.php?hid-0.html#faq35" class="black"><font size="3" color="red">地址发布器下载</font></a></th>
+<td class="tal y-style"><a href="u.php?action=show&username=admin" class="bl">admin</a></td>
+<td class="tal y-style"><a href="notice.php?fid=3#0">站点公告</a></td>
+<td class="y-style f10">2019-05-02 08:15</td>
+</tr>
+<tr align="center" class="tr3 t_one">
+<td><a title="锁定主题 " href="read.php?tid-4378369.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_4378369">[10-20]
+<img src="images/wind/file/headtopic_3.gif" align="absmiddle" title="置顶帖标志" /><a href="read.php?tid-4378369.html" target="_blank" id="a_ajax_4378369" class="subject"><b><font color=#008000>全国各地约炮大群，男女约炮服务，享受同城兼职少妇模特学生上门约啪！</font></b></a>&nbsp; <span class='gray'><span class="subject">( <span class="s1">金币+4</span>)</sapn></span> </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=0" class="bl">匿名</a>
+<div class="f10 gray">2021-10-20</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-4378369-page-e-fpage-1.html#a">匿名</a><br />
+<span class="f10 gray">2021-10-20 17:07</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="热门主题" href="read.php?tid-4.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_4">[03-20]
+<img src="images/wind/file/headtopic_3.gif" align="absmiddle" title="置顶帖标志" /><a href="read.php?tid-4.html" target="_blank" id="a_ajax_4" class="subject">■■■ 來訪者必看的內容 - 使你更快速上手 &lt;隨時更新&gt; ■■■</a>&nbsp; <span class='gray'><span class="subject">( <span class="s1">金幣+108</span> <span class="s2">金币+2</span>)</sapn></span> <span class="w"> <img src="images/wind/file/multipage.gif" border=0 align="absmiddle"> <span style="font-family:verdana;"> <a href="read.php?tid-4.html">1</a> <a href="read.php?tid-4-page-2.html">2</a> <a href="read.php?tid-4-page-3.html">3</a> <a href="read.php?tid-4-page-4.html">4</a> <a href="read.php?tid-4-page-5.html">5</a> .. <a href="read.php?tid-4-page-3101.html">3101</a></span> </span>
+</td>
+<td class="tal y-style"><a href="u.php?action=show&uid=2" class="bl">系統消息</a>
+<div class="f10 gray">2018-03-20</div></td>
+<td class="tal y-style f10 gray"><span class="s3">3100</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-4-page-e-fpage-1.html#a">barrysss</a><br />
+<span class="f10 gray">2021-04-27 12:11</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="锁定主题 " href="read.php?tid-1632792.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_1632792">[01-07]
+<img src="images/wind/file/headtopic_3.gif" align="absmiddle" title="置顶帖标志" /><a href="read.php?tid-1632792.html" target="_blank" id="a_ajax_1632792" class="subject"><font color=#BC0E00>2048最新文宣更新，請各位更換新的文宣</font></a>&nbsp; <span class='gray'><span class="subject">( <span class="s1">金币+1</span>)</sapn></span> <img src="images/wind/file/zip.gif" border=0 align="absmiddle"></td>
+<td class="tal y-style"><a href="u.php?action=show&uid=0" class="bl">匿名</a>
+<div class="f10 gray">2020-01-07</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-1632792-page-e-fpage-1.html#a">匿名</a><br />
+<span class="f10 gray">2020-01-07 13:15</span>
+</td>
+</tr><tr class="tr2"><td colspan="6" class="tac" style="border-top:0">普通主题</td></tr>
+
+<tr class="tr3 t_one" onmouseover="this.className='tr3 t_two'" onmouseout="this.className='tr3 t_one'" align="center">
+<td><span class="m-hidden">⊙</span></td>
+<td id="td_3733" style="PADDING-LEFT: 8px; TEXT-ALIGN: left">
+<a href="/htm/b9.htm" target="_blank"><font size="4" color="red"><b>威尼斯人</b></font></a>
+&nbsp;&nbsp;<a href="/htm/a1.htm" target="_blank"><font size="4" color="blue"><b>亚博赌场</b></font></a>
+&nbsp;&nbsp;<a href="/htm/a2.htm" target="_blank"><font size="4" color="red"><b>葡京赌场</b></font></a>
+&nbsp;&nbsp;<a href="/htm/a4.htm" target="_blank"><font size="4" color="green"><b>皇冠体育</b></font></a>
+&nbsp;&nbsp;<a href="/htm/a8.htm" target="_blank"><font size="4" color="green"><b>凤凰娱乐</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b7.htm" target="_blank"><font size="4" color="red"><b>同城约炮</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b1.htm" target="_blank"><font size="4" color="blue"><b>威尼斯人</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b10.htm" target="_blank"><font size="4" color="red"><b>聚合直播</b></font></a>
+&nbsp;&nbsp;<a href="/htm/sg.htm" target="_blank"><font size="4" color="blue"><b>现金棋牌</b></font></a>
+&nbsp;&nbsp;<a href="/htm/bba.htm" target="_blank"><font size="4" color="red"><b>现金赌场</b></font></a>
+<br>
+<a href="/htm/a5.htm" target="_blank"><font size="4" color="red"><b>皇冠赌场</b></font></a>
+&nbsp;&nbsp;<a href="/htm/a6.htm" target="_blank"><font size="4" color="green"><b>必赢棋牌</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b4.htm" target="_blank"><font size="4" color="red"><b>开元棋牌 </b></font></a>
+&nbsp;&nbsp;<a href="/htm/a7.htm" target="_blank"><font size="4" color="blue"><b>王者棋牌</b></font>
+&nbsp;&nbsp;<a href="/htm/b5.htm" target="_blank"><font size="4" color="green"><b>9 1原创</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b2.htm" target="_blank"><font size="4" color="red"><b>银河赌场</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b6.htm" target="_blank"><font size="4" color="blue"><b>约炮大群</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b3.htm" target="_blank"><font size="4" color="green"><b>兼职少妇</b></font></a>
+&nbsp;&nbsp;<a href="/htm/vk.htm" target="_blank"><font size="4" color="red"><b>同城做爱</b></font></a>
+</td><td><span class="m-hidden"><font color="">2048</font></span></td> <td class="tal y-style f10 gray"><span class="s3">15</span></td>
+</tr>
+</tr>
+
+<tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6923833.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6923833">[08-03]
+
+<a href="state/p/3/2208/6923833.html" target="_blank" id="a_ajax_6923833" class="subject">8-03_最新1K严选有码系列 十连发 [中文字幕]</a>&nbsp; <img src="images/wind/file/zip.gif" border=0 align="absmiddle"><img src="images/wind/file/new.gif" align="absmiddle" title="新帖标志" />
+</td>
+<td class="tal y-style"><a href="u.php?action=show&uid=486650" class="bl">javbbs</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6923833-page-e-fpage-1.html#a">javbbs</a><br />
+<span class="f10 gray">2022-08-03 16:08</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6923660.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6923660">[08-03]
+
+<a href="state/p/3/2208/6923660.html" target="_blank" id="a_ajax_6923660" class="subject">★●經典の日本騎兵㊣↗精彩合集↘♀[08.03]</a>&nbsp; <img src="images/wind/file/new.gif" align="absmiddle" title="新帖标志" />
+</td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6923660-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 15:57</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6923251.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6923251">[08-03]
+
+<a href="state/p/3/2208/6923251.html" target="_blank" id="a_ajax_6923251" class="subject">★●中文字幕の日本騎兵㊣↗合集↘♀ [08.03]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6923251-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 14:52</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6923243.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6923243">[08-03]
+
+<a href="state/p/3/2208/6923243.html" target="_blank" id="a_ajax_6923243" class="subject">【新片速遞】 【重磅 抖音直播技术性走光 热舞 露底 美女云集 429V合集】，超大合集!一次看到爽！！！[2.85G/MP4]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6923243-page-e-fpage-1.html#a">無印優品</a><br />
+<span class="f10 gray">2022-08-03 14:49</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6923096.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6923096">[08-03]
+
+<a href="state/p/3/2208/6923096.html" target="_blank" id="a_ajax_6923096" class="subject">※核基地※最新素人精选☆31片☆合集㊣♀</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=7856" class="bl">骑兵专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6923096-page-e-fpage-1.html#a">骑兵专员</a><br />
+<span class="f10 gray">2022-08-03 14:14</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6922874.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6922874">[08-03]
+
+<a href="state/p/3/2208/6922874.html" target="_blank" id="a_ajax_6922874" class="subject">日本FC2无码精选素人女优32部合集(本期为素人开盲盒系列)</a>&nbsp; <img src="images/wind/file/zip.gif" border=0 align="absmiddle"></td>
+<td class="tal y-style"><a href="u.php?action=show&uid=2848" class="bl">1024</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6922874-page-e-fpage-1.html#a">1024</a><br />
+<span class="f10 gray">2022-08-03 13:35</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6922788.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6922788">[08-03]
+
+<a href="state/p/3/2208/6922788.html" target="_blank" id="a_ajax_6922788" class="subject">★◇精彩の最新国產㊣↗精品合集↘♀【08.03】</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6922788-page-e-fpage-1.html#a">無印優品</a><br />
+<span class="f10 gray">2022-08-03 13:18</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6922494.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6922494">[08-03]
+
+<a href="state/p/3/2208/6922494.html" target="_blank" id="a_ajax_6922494" class="subject">★★★★の中日欧无码♀↗️收藏合集☆♂【08.03】</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6922494-page-e-fpage-1.html#a">無印優品</a><br />
+<span class="f10 gray">2022-08-03 12:22</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6922177.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6922177">[08-03]
+
+<a href="state/p/3/2208/6922177.html" target="_blank" id="a_ajax_6922177" class="subject">▲规懒趴会▲日本有码中文字幕精品合集[08.01]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6922177-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 11:41</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6921892.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6921892">[08-03]
+
+<a href="state/p/3/2208/6921892.html" target="_blank" id="a_ajax_6921892" class="subject">8/03 ★老司機推薦5部1080P最新作★《FHD中文》【5V15GB种子】</a>&nbsp; <img src="images/wind/file/zip.gif" border=0 align="absmiddle"></td>
+<td class="tal y-style"><a href="u.php?action=show&uid=1904891" class="bl">avhunter</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6921892-page-e-fpage-1.html#a">avhunter</a><br />
+<span class="f10 gray">2022-08-03 10:48</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6921886.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6921886">[08-03]
+
+<a href="state/p/3/2208/6921886.html" target="_blank" id="a_ajax_6921886" class="subject">【新片速遞】 【私拍】反差婊合集-职业模特马兰的换装大尺度裸体套图及视频1539P+12V本次合集一共5套作品，马兰和薇薇[22.3G/MP4]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6921886-page-e-fpage-1.html#a">無印優品</a><br />
+<span class="f10 gray">2022-08-03 10:47</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6921242.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6921242">[08-03]
+
+<a href="state/p/3/2208/6921242.html" target="_blank" id="a_ajax_6921242" class="subject">♀精品国产自拍㊣精彩合集♀ [08.03]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=31321" class="bl">hdgc</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6921242-page-e-fpage-1.html#a">hdgc</a><br />
+<span class="f10 gray">2022-08-03 09:11</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6921197.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6921197">[08-03]
+
+<a href="state/p/3/2208/6921197.html" target="_blank" id="a_ajax_6921197" class="subject">【2022-08-02】最新の国产无码精品♀↗极品合集㊣♂</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=958908" class="bl">myheroman</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6921197-page-e-fpage-1.html#a">myheroman</a><br />
+<span class="f10 gray">2022-08-03 08:57</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6921172.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6921172">[08-03]
+
+<a href="state/p/3/2208/6921172.html" target="_blank" id="a_ajax_6921172" class="subject">▲核基地▲最新の國產合集☆15部㊣♀ [8.3]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=1016648" class="bl">優衣庫</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6921172-page-e-fpage-1.html#a">優衣庫</a><br />
+<span class="f10 gray">2022-08-03 08:49</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6920273.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6920273">[08-03]
+
+<a href="state/p/3/2208/6920273.html" target="_blank" id="a_ajax_6920273" class="subject">★◇精彩の最新國產㊣↗精品合集↘♀ [08.03]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6920273-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 02:55</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6920272.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6920272">[08-03]
+
+<a href="state/p/3/2208/6920272.html" target="_blank" id="a_ajax_6920272" class="subject">★◇精彩の套图写真㊣↗精品合集↘♀ [08.03]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6920272-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 02:54</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6920268.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6920268">[08-03]
+
+<a href="state/p/3/2208/6920268.html" target="_blank" id="a_ajax_6920268" class="subject">★◇精彩の亚洲无码㊣↗经典合集↘♀ [08.03]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6920268-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 02:54</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6919670.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6919670">[08-03]
+
+<a href="state/p/3/2208/6919670.html" target="_blank" id="a_ajax_6919670" class="subject">核基地▲最新無碼高清FHD-合集 [08-03]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=12" class="bl">核基地</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6919670-page-e-fpage-1.html#a">核基地</a><br />
+<span class="f10 gray">2022-08-03 01:08</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6919372.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6919372">[08-03]
+
+<a href="state/p/3/2208/6919372.html" target="_blank" id="a_ajax_6919372" class="subject">★◇精彩の最新動漫㊣↗?精品合集↘?♀[08.03]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6919372-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 00:43</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6919353.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6919353">[08-03]
+
+<a href="state/p/3/2208/6919353.html" target="_blank" id="a_ajax_6919353" class="subject">★●經典の國產無碼㊣↗?精彩合集↘?♀ [08.03]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6919353-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 00:42</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6919351.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6919351">[08-03]
+
+<a href="state/p/3/2208/6919351.html" target="_blank" id="a_ajax_6919351" class="subject">★塔卡小爹賽★有碼合輯08.02</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6919351-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 00:42</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6919278.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6919278">[08-03]
+
+<a href="state/p/3/2208/6919278.html" target="_blank" id="a_ajax_6919278" class="subject">▲kkpub▲國產色男騷女自拍合集[08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6919278-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 00:36</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6919115.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6919115">[08-03]
+
+<a href="state/p/3/2208/6919115.html" target="_blank" id="a_ajax_6919115" class="subject">★小隻馬★無碼中文字幕合集♂08.02</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6919115-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 00:08</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6919111.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6919111">[08-03]
+
+<a href="state/p/3/2208/6919111.html" target="_blank" id="a_ajax_6919111" class="subject">★小隻馬★經典國產合集♂08.02</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6919111-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 00:08</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6919108.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6919108">[08-03]
+
+<a href="state/p/3/2208/6919108.html" target="_blank" id="a_ajax_6919108" class="subject">★小隻馬★經典國產合集♂08.02-1</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-03</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6919108-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-03 00:07</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6919027.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6919027">[08-02]
+
+<a href="state/p/3/2208/6919027.html" target="_blank" id="a_ajax_6919027" class="subject">◆正片大片の★◆经典三级片の大合集[0803]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6919027-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 23:54</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6918825.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6918825">[08-02]
+
+<a href="state/p/3/2208/6918825.html" target="_blank" id="a_ajax_6918825" class="subject">※核基地※無碼精选☆30片☆合集㊣♀</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=8211" class="bl">无码专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6918825-page-e-fpage-1.html#a">无码专员</a><br />
+<span class="f10 gray">2022-08-02 23:26</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6918814.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6918814">[08-02]
+
+<a href="state/p/3/2208/6918814.html" target="_blank" id="a_ajax_6918814" class="subject">★★灣搭★新片首发★超級國產偷拍專輯♂[08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6918814-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 23:24</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6918801.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6918801">[08-02]
+
+<a href="state/p/3/2208/6918801.html" target="_blank" id="a_ajax_6918801" class="subject">★★灣搭★新片首发★超級國產偷拍專輯♂[08.01]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6918801-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 23:22</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6918470.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6918470">[08-02]
+
+<a href="state/p/3/2208/6918470.html" target="_blank" id="a_ajax_6918470" class="subject">▲kkpub▲極品國產騷女合集[08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6918470-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 22:20</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6918456.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6918456">[08-02]
+
+<a href="state/p/3/2208/6918456.html" target="_blank" id="a_ajax_6918456" class="subject">【MP4】nirc002 母乳授精</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6918456-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 22:18</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6918358.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6918358">[08-02]
+
+<a href="state/p/3/2208/6918358.html" target="_blank" id="a_ajax_6918358" class="subject">★★灣搭★新片首发★不得不看的頂級顏值獨家素人專輯♂08.02</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6918358-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 22:06</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6918211.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6918211">[08-02]
+
+<a href="state/p/3/2208/6918211.html" target="_blank" id="a_ajax_6918211" class="subject">▲核基地▲歐美の合集☆35部㊣♀</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=8229" class="bl">西洋首发</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6918211-page-e-fpage-1.html#a">西洋首发</a><br />
+<span class="f10 gray">2022-08-02 21:32</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6918008.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6918008">[08-02]
+
+<a href="state/p/3/2208/6918008.html" target="_blank" id="a_ajax_6918008" class="subject">【MP4】hnd818 在好友移开视线的10分钟的间隙，我和好友的爸爸偷偷地开始了不伦出租版 永濑由依</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6918008-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 21:04</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917960.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917960">[08-02]
+
+<a href="state/p/3/2208/6917960.html" target="_blank" id="a_ajax_6917960" class="subject">★★灣搭★新片首发★最強有碼專輯♂08.02</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917960-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 20:58</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917871.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917871">[08-02]
+
+<a href="state/p/3/2208/6917871.html" target="_blank" id="a_ajax_6917871" class="subject">【MP4】hnd806 色情大屁股现役医学生第一次生中出出租版 伊藤枫</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917871-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 20:45</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917858.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917858">[08-02]
+
+<a href="state/p/3/2208/6917858.html" target="_blank" id="a_ajax_6917858" class="subject">▲老含及▲欧美無码合集[08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917858-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 20:42</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917814.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917814">[08-02]
+
+<a href="state/p/3/2208/6917814.html" target="_blank" id="a_ajax_6917814" class="subject">★●經典の島國步兵㊣↗?精彩合集↘?♀ [08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917814-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 20:32</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917756.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917756">[08-02]
+
+<a href="state/p/3/2208/6917756.html" target="_blank" id="a_ajax_6917756" class="subject">★●經典の店長推薦㊣↗?無碼合集↘?♀ [08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917756-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 20:28</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917754.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917754">[08-02]
+
+<a href="state/p/3/2208/6917754.html" target="_blank" id="a_ajax_6917754" class="subject">★●經典の歐美無碼㊣↗?精彩合集↘?♀ [08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917754-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 20:28</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917590.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917590">[08-02]
+
+<a href="state/p/3/2208/6917590.html" target="_blank" id="a_ajax_6917590" class="subject">▲小隻馬▲新片首发▲中文字幕有碼合集♂[0802]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917590-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 20:00</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917509.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917509">[08-02]
+
+<a href="state/p/3/2208/6917509.html" target="_blank" id="a_ajax_6917509" class="subject">▲老含及▲中文有碼合集[08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917509-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 19:40</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917452.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917452">[08-02]
+
+<a href="state/p/3/2208/6917452.html" target="_blank" id="a_ajax_6917452" class="subject">▲小隻馬▲新片首发▲最強有碼合集♂[0802]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917452-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 19:23</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917441.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917441">[08-02]
+
+<a href="state/p/3/2208/6917441.html" target="_blank" id="a_ajax_6917441" class="subject">★◇精彩の最新動漫㊣↗?精品合集↘?♀[08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917441-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 19:21</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917423.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917423">[08-02]
+
+<a href="state/p/3/2208/6917423.html" target="_blank" id="a_ajax_6917423" class="subject">★●經典の國產無碼㊣↗?精彩合集↘?♀ [08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917423-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 19:18</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917322.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917322">[08-02]
+
+<a href="state/p/3/2208/6917322.html" target="_blank" id="a_ajax_6917322" class="subject">★★灣搭★新片首发★最強人妻無碼專輯♂08.02</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917322-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 19:05</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/6917305.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6917305">[08-02]
+
+<a href="state/p/3/2208/6917305.html" target="_blank" id="a_ajax_6917305" class="subject">▲老含及▲高清有碼合集[08.02]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-02</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6917305-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-02 19:01</span>
+</td>
+</tr>
+
+<tr class="tr3 t_one" onmouseover="this.className='tr3 t_two'" onmouseout="this.className='tr3 t_one'" align="center">
+<td><span class="m-hidden">⊙</span></td>
+<td id="td_3733" style="PADDING-LEFT: 8px; TEXT-ALIGN: left">
+<a href="/htm/b9.htm" target="_blank"><font size="4" color="red"><b>威尼斯人</b></font></a>
+&nbsp;&nbsp;<a href="/htm/a1.htm" target="_blank"><font size="4" color="blue"><b>亚博赌场</b></font></a>
+&nbsp;&nbsp;<a href="/htm/a2.htm" target="_blank"><font size="4" color="red"><b>葡京赌场</b></font></a>
+&nbsp;&nbsp;<a href="/htm/a4.htm" target="_blank"><font size="4" color="green"><b>皇冠体育</b></font></a>
+&nbsp;&nbsp;<a href="/htm/a8.htm" target="_blank"><font size="4" color="green"><b>凤凰娱乐</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b7.htm" target="_blank"><font size="4" color="red"><b>同城招嫖</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b1.htm" target="_blank"><font size="4" color="blue"><b>威尼斯人</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b10.htm" target="_blank"><font size="4" color="red"><b>聚合直播</b></font></a>
+&nbsp;&nbsp;<a href="/htm/sg.htm" target="_blank"><font size="4" color="blue"><b>现金棋牌</b></font></a>
+&nbsp;&nbsp;<a href="/htm/bba.htm" target="_blank"><font size="4" color="red"><b>现金赌场</b></font></a>
+<br>
+<a href="/htm/a5.htm" target="_blank"><font size="4" color="red"><b>皇冠赌场</b></font></a>
+&nbsp;&nbsp;<a href="/htm/a6.htm" target="_blank"><font size="4" color="green"><b>必赢棋牌</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b4.htm" target="_blank"><font size="4" color="red"><b>开元棋牌 </b></font></a>
+&nbsp;&nbsp;<a href="/htm/a7.htm" target="_blank"><font size="4" color="blue"><b>王者棋牌</b></font>
+&nbsp;&nbsp;<a href="/htm/b5.htm" target="_blank"><font size="4" color="green"><b>9 1原创</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b2.htm" target="_blank"><font size="4" color="red"><b>银河赌场</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b6.htm" target="_blank"><font size="4" color="blue"><b>小姐上门</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b3.htm" target="_blank"><font size="4" color="green"><b>同城约炮</b></font></a>
+&nbsp;&nbsp;<a href="/htm/vk.htm" target="_blank"><font size="4" color="red"><b>同城做爱</b></font></a>
+</td><td><span class="m-hidden"><font color="">2048</font></span></td> <td class="tal y-style f10 gray"><span class="s3">15</span></td>
+</tr>
+</tr>  <tr><td colspan="6" class="f_one" style="height:8px"></td></tr>
+</tbody>
+</table></div>
+<div class="t3"><table cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td>
+<form action="thread.php?fid=3&page=1" method="post">
+<input type="hidden" name="type" value="0">
+<input type="hidden" name="special" value="0">
+<select name="search"><option value="">所有主题</option>
+<option value="digest">本版精华区</option>
+<option value="1">1天内的主题</option>
+<option value="2">2天内的主题</option>
+<option value="7">1星期内的主题</option>
+<option value="30">1个月内的主题</option>
+<option value="60">2个月内的主题</option>
+<option value="90">3个月内的主题</option>
+<option value="180">6个月内的主题</option>
+<option value="365">1年内的主题</option>
+</select>
+<input class="btn" type="button" value="提 交" onclick="this.form.submit();">
+</form>
+</td>
+<td align="right" width="40%">
+<form name="jump" method="post">
+<a class="bta fr" href="profile.php?action=permission&fid=3" title="查看您在本版块的权限" target="_blank">版块权限查看</a>
+</form>
+</td>
+</tr>
+</table></div>
+<div class="t3"><span class="fr"><a href="post.php?fid=3" title="发表新帖"><img src="images/wind/post.png" id="td_post1" /></a></span><span class="fl"><div class="pages"><a href="thread.php?fid-3-page-1.html" class="b">&laquo;</a><b>1</b><a href="thread.php?fid-3-page-2.html">2</a><a href="thread.php?fid-3-page-3.html">3</a><a href="thread.php?fid-3-page-4.html">4</a><a href="thread.php?fid-3-page-5.html">5</a><a href="thread.php?fid-3-page-589.html" class="b">&raquo;</a><span class="pagesone"><span>Pages: 1/589</span><input type="text" size="3" onkeydown="javascript: if(event.keyCode==13){ location='thread.php?fid=3&page='+this.value+'';return false;}"><button onclick="javascript:  location='thread.php?fid=3&page='+this.previousSibling.value+'';return false;">Go</button></span></div></span>
+<div class="c"></div>
+</div>
+</div><div class="c"></div><script language="JavaScript">
+var fid = '3';
+var forumtitle = "最新合集";
+var imgok = "collect.gif";
+var imgno = "cancel.gif";
+var myshortcut = false;function Fjump(value){
+if(value!=''){
+window.location=('http://bbs.huieiv.com/2048/thread.php?fid='+value);
+}
+}
+function Ajump(value){
+if(value!= ''){
+window.location=('http://bbs.huieiv.com/2048/u.php?action=show&username='+value);
+}
+}
+var totalpage = parseInt('0');
+var page = parseInt('1');
+if(totalpage > 1){
+document.onkeydown=function(e){
+var e = is_ie ? window.event : e;
+var tagname = is_ie ? e.srcElement.tagName : e.target.tagName;
+if(tagname == 'INPUT' || tagname == 'TEXTAREA'){
+return;
+}
+actualCode = e.keyCode ? e.keyCode : e.charCode;
+if(actualCode == 39 && page<totalpage) {
+window.location = 'thread.php?fid=3&search=img&page=' + (page+1);
+}
+if(actualCode == 37 && page>1){
+window.location = 'thread.php?fid=3&search=img&page=' + (page-1);
+}
+}
+}function shortCut() {
+ajax.send('pw_ajax.php?action=shortcut&fid='+fid,'',function(){
+ajax.guide();
+var rText = ajax.request.responseText.split('	');
+if (typeof(rText[1]) != 'undefined' && rText[1] == 'successok') {
+getObj('shortcut').innerHTML = "<a style=\"cursor:pointer;\" onclick=\"javascript:shortCut();\" title=\"将本版块移除出我的书签\"><img src=\"images/wind/thread/"+imgok+"\" align=\"absbottom\" style=\"margin-bottom:2px;\" /></a>";
+var shortcutforum = getObj('shortcutforum');
+if (myshortcut == false) {
+var shortcutname = getObj('shortcutname');
+shortcutname.innerHTML = "收藏的版块:&nbsp;";
+shortcutforum.innerHTML = "<li id=\"scf_"+fid+"\"><a href=\"thread.php?fid="+fid+"\">"+forumtitle+"</a>&nbsp;</li>";
+} else {
+if (IsElement('shortcutforum')) {
+var li = document.createElement('li');
+li.id = 'scf_'+fid;
+li.innerHTML = "<a href=\"thread.php?fid='+fid+'\">"+forumtitle+"</a>&nbsp;";
+shortcutforum.appendChild(li);
+}
+}} else if (typeof(rText[1]) != 'undefined' && rText[1] == 'successno') {
+getObj('shortcut').innerHTML = "<a style=\"cursor:pointer;\" onclick=\"javascript:shortCut();\" title=\"将本版块添加到我的书签\"><img src=\"images/wind/thread/"+imgno+"\" align=\"absbottom\" style=\"margin-bottom:2px;\" /></a>";
+if (IsElement('scf_'+fid)) {
+var thisnode = getObj('scf_'+fid);
+var shortcutforum = thisnode.parentNode;
+shortcutforum.removeChild(thisnode);
+var li = shortcutforum.childNodes;
+for (var i=0; i<li.length; i++) {
+if (li[i].nodeType == 1) {
+return false;
+}
+}
+myshortcut = false;
+var shortcutname = getObj('shortcutname');
+shortcutname.innerHTML = "热门版块:&nbsp;";
+shortcutforum.innerHTML = getObj('db_shortcutforum').innerHTML;
+}
+}});
+}
+</script>
+<style>
+.light_night{background: #16161a!important}
+.light_night #header{background: #16161a!important}
+.light_night .z{background: black;!important}
+.deanopas{position: fixed;
+right: 1%;
+bottom: 50%;
+z-index: 10;}
+.deanopas a{width: 45px;
+height: 55px;
+text-align: center;
+cursor: pointer;
+position: relative;
+margin-bottom: 5px;
+display: block;text-decoration: none;}
+.deanopas a i{display: block;
+text-align: center;
+font-size: 25px;
+padding-top: 5px;
+padding-bottom: 2px;
+color: #fff;height: 22px;}
+[class^="icon-"]:before, [class*=" icon-"]:before{text-decoration: inherit;display: inline-block;speak: none;}
+.icon-lightbulb:before{content: ".";background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAMAAAD+dOxOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENFM0M4NkM3NEJCMTFFQTgxMDhDNzk0MDcyQTk5QjIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENFM0M4NkQ3NEJCMTFFQTgxMDhDNzk0MDcyQTk5QjIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0UzQzg2QTc0QkIxMUVBODEwOEM3OTQwNzJBOTlCMiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0UzQzg2Qjc0QkIxMUVBODEwOEM3OTQwNzJBOTlCMiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pt9vIcoAAAA/UExURf////39/Zyfoenq69jZ2vj5+VdcYKmrreLj5Li6vPDw8c/R0oyQk0xRVcTFx/z8/Pz8/V9kaG9zd/r6+v///16Vqg4AAAAVdFJOU///////////////////////////ACvZfeoAAACVSURBVHjadJBZEoQgDERbQZFF1Jnc/6xmw5kfUyUVH03TAaSVgM068Lcu0JpmA8nbAFQBvJ9NrR0o6n/7sqgdhbCH86P7sVwUpxnrwo2RTB35DwhjhXu468mm7dBLSS+ukqNj2EpaSdotdkLx6HuQQ7YqYEmVVNsYTqaR+oHg0z4gGijvCveo76acwV9tAB5rDHQLMAD9hhGwoemXxwAAAABJRU5ErkJggg==) no-repeat;width: 16px;}
+.deanopas a{text-align: center;cursor: pointer;}
+.deanopas a span{font-size: 12px;color: #fff;}
+.deanopas a.deancloselight{background: #363c41;}
+.deanopas a.deanopenlight{background: #f66;}
+</style>
+</div></div>
+<div class="footer-wrap">
+<div class="c"></div>
+<div id="bottom"></div>
+<div id="light" class="deanopas wow fadeInDown" style="visibility: visible; -webkit-animation: fadeInDown;">
+<a href="javascript:;" class="deancloselight"><i class="icon-lightbulb"></i><span id="light_text">关灯</span></a>
+</div>
+<script>
+var cook_light = FetchCookie('light');	
+var but = document.getElementById("light");
+var type = document.getElementsByClassName("deancloselight");
+var light_text = document.getElementById("light_text");
+if(cook_light=='light_night'){
+document.getElementsByTagName('body')[0].className = 'light_night';
+type[0].classList.add("deanopenlight");
+light_text.innerHTML = '开灯';
+}else{
+document.getElementsByTagName('body')[0].className = '';
+}
+but.addEventListener('click',function() {if(cook_light=='light_night'){
+document.getElementsByTagName('body')[0].className = '';
+SetCookie('light','light_day');
+cook_light = 'light_day';
+type[0].classList.remove("deanopenlight");
+light_text.innerHTML = '关灯';
+}else{
+document.getElementsByTagName('body')[0].className = 'light_night';
+SetCookie('light','light_night')
+cook_light = 'light_night';
+type[0].classList.add("deanopenlight");
+light_text.innerHTML = '开灯';
+}})
+</script>
+<div class="c"></div>
+<div id="footer">
+<div id="mode-footer" class="mt">
+<div class="bottom tac">
+
+<a href="/htm/b10.htm" target="_blank"><font size="4" color="red"><b>聚合直播</b></font></a>
+<a href="/htm/b9.htm" target="_blank"><font size="4" color="blue"><b>威尼斯人</b></font></a>&nbsp;<a href="/htm/a1.htm" target="_blank"><font size="4" color="red"><b>亚博赌场</b></font></a>&nbsp;<a href="/htm/a2.htm" target="_blank"><font size="4" color="blue"><b>葡京赌场</b></font></a>&nbsp;<a href="/htm/a4.htm" target="_blank"><font size="4" color="red"><b>皇冠体育</b></font></a>&nbsp;<a href="/htm/a5.htm" target="_blank"><font size="4" color="blue"><b>皇冠赌场</b></font></a>&nbsp;<a href="/htm/b4.htm" target="_blank"><font size="4" color="green"><b>开元棋牌</b></font></a>&nbsp;<a href="/htm/b7.htm" target="_blank"><font size="4" color="blue"><b>兼职少妇</b></font></a>&nbsp;<a href="/htm/sg.htm" target="_blank"><font size="4" color="green"><b>现金棋牌</b></font></a>&nbsp;<a href="/htm/bba.htm" target="_blank"><font size="4" color="red"><b>现金赌场</b></font></a>
+<br>
+&nbsp;<a href="/htm/b1.htm" target="_blank"><font size="4" color="red"><b>威尼斯人</b></font></a>
+<a href="/htm/b2.htm" target="_blank"><font size="4" color="green"><b>银河赌场</b></font></a>&nbsp;<a href="/htm/a7.htm" target="_blank"><font size="4" color="blue"><b>王者棋牌</b></font></a>&nbsp;<a href="/htm/a6.htm" target="_blank"><font size="4" color="green"><b>必赢棋牌</b></font></a>&nbsp;<a href="/htm/b5.htm" target="_blank"><font size="4" color="red"><b>9 1大神</b></font></a>&nbsp;<a href="/htm/b6.htm" target="_blank"><font size="4" color="blue"><b>约炮大群</b></font></a>&nbsp;<a href="/htm/a8.htm" target="_blank"><font size="4" color="green"><b>凤凰娱乐</b></font></a>
+&nbsp;<a href="/htm/b3.htm" target="_blank"><font size="4" color="red"><b>同城约炮</b></font></a>&nbsp;<a href="/htm/vk.htm" target="_blank"><font size="4" color="red"><b>同城做爱</b></font></a>
+</div>
+<div class="bottom tac"><div class="y-bg4 black"> <ul> <li><a href="index.php?skinco-Touch.html">手機版</a> | <a href="https://apk.elsbapk.org/2048.apk">APP下載</a> | <a href="/2048/2048.rar">地址发布器</a> | <a href="faq.php?hid-0.html.html#faq33">2257</a> | <a href="faq.php?hid-0.html.html#faq34">DMCA</a></li>
+</ul> </div></div>
+</div></div></div>
+<script language="JavaScript" src="js/global.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/choose.js"></script>
+</body></html>
+<script language="JavaScript" src="js/app_global.js"></script>
+<script language="JavaScript">
+var openmenu = {'td_KEYhack' : 'menu_KEYhack','td_KEYsort' : 'menu_KEYsort','td_skin' : 'menu_skin','td_post' : 'menu_post','td_post1' : 'menu_post','td_special' : 'menu_special'};
+read.InitMenu();
+/*
+read.InitMenu(function(id)
+{
+if(id=="menu_post")
+{
+//getObj("menu_post").getElementsByTagName("a")[0].style.border="2px solid red";
+//alert(getObj("menu_post").getElementsByTagName("a")[0].outerHTML);
+read.menu.getElementsByTagName("a")[0].focus();
+return;
+}
+});
+*/
+WINDOW_LOADED=1;
+</script>
+<script type="text/javascript" language="JavaScript" src="js/pw_jobcenter.js"></script>

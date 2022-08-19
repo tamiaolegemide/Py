@@ -11,10 +11,19 @@
 		<table id="page">
 			<tr v-for="i in data">
 				<td>
+					&lt;a target="_blank" href="{{i}}">{{i}}&lt;/a>
+				</td>
+			</tr>
+		</table>
+		<!--
+		<table id="page">
+			<tr v-for="i in data">
+				<td>
 					<a target="_blank" href="" id="fuck">..............</a>
 				</td>
 			</tr>
 		</table>
+		-->
 	</body>
 
 	<script>
@@ -27,20 +36,18 @@ function clock(){
 	}
 }
 
+//setInterval("clock()",3000);
 
-setInterval("clock()",3000);
 
-const trList = {
-	data(){
+const { createApp } = Vue
+
+createApp({
+	data() {
 		return {
 			'data' : data,
 		}
-
-	},
-	methods:{
-
 	}
-}
+}).mount('#page')
 
 
 	</script>

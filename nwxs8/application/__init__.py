@@ -12,17 +12,70 @@ DL = "/"
 
 
 
-obj = filter.filter()
-obj.fuck()
 
-webPre="https://www.nwxs8.com/news/"
+webPre="https://www.nwxs8.com/news"
+down = download.download()
+content = down.get(webPre)
+print(content)
+
+'''
+
+### i : url,filename    page:第几页
+    def downs(self,i,page=1,total = None):
+        #pre = "https://www.nwxs8.com/"
+
+        if page != 1:
+            url = re.sub(".html","_"+str(page)+".html",i[0])
+        else:
+            url = i[0]
+
+        filename = i[1].replace("&nbsp;","_")
+        dirNameUrl = self.downLoadUrl + filename
+        with open(self.historyUrl,"a+") as f:
+            f.write("Start:" + filename + "\n")
+
+        try:
+            if not os.path.exists(dirNameUrl):
+                os.makedirs(dirNameUrl)
+        except BaseException as e:
+            with open(self.errorUrl,"a+") as f:
+                f.write("无法创建目录 : "+filename + "url:" + url);
+            return False;
+
+        fileUrl = dirNameUrl + "/" + str(page) + ".html"
+        
+        if not os.path.exists(fileUrl) or True:
+            try:
+                req = request.Request(url,headers=self.headers)
+                recv = request.urlopen(req,timeout=10)
+                content= recv.read().decode("utf-8");
+                if total == None:
+                    totalRe = re.findall("共(\d{1,3})页",content);
+                    if totalRe == [] or totalRe == None:
+                            total = 1
+                    else:
+                        total = totalRe[0]
+
+                with open(fileUrl,"w+") as f:
+                    f.write(content)
+
+            except BaseException as e:
+                with open(self.errorUrl,"a+") as d:
+                    d.write("解误失败|"+i[1]+"|"+i[0]+ repr(e)+"\r\n")
+                    d.close()
+
+
+            page += 1;
+            if int(page) <= int(total):
+                self.downs(i,page)
+
+        with open(self.historyUrl,"a+") as f:
+            f.write("End:" + filename +"\n")
 
 
 
 exit(1)
 
-
-'''
 
     recordUrl = "../data/record"
     downLoadUrl = "../Download"

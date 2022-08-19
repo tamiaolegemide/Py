@@ -50,6 +50,9 @@ class download():
         return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
 
     def getLists(self):
+        with open(self.urlFile,"w") as f:
+            f.write("")
+
         for i in range(1,2):
             url = self.getPageUrl(i);
             fileName = str(date.today())+"-"+str(i)
@@ -64,20 +67,28 @@ class download():
 
 
     def getUrlContent(self,url):
-        req = request.Request(url,headers=self.headers)
-        recv = request.urlopen(req,timeout=10)
-        rs = recv.read().decode()
+        rs = False
+        try:
+            req = request.Request(url,headers=self.headers)
+            recv = request.urlopen(req,timeout=10)
+            rs = recv.read().decode()
+        except Exception:
+            pass
+
         return rs 
 
 
     def getHtmlUrl(self,content=''):
-        string = re.findall('<a href="(state.*?)"',content)
+        string = re.findall('<a href="(state.*?)"',str(content))
         #string = ['state/p/3/2207/6713225.html']
         for i in string:
             url = i.strip()
             url = self.preurl + url
             ic = self.getUrlContent(url);
+            print(url)
             self.getDownUrl(ic);
+
+
 
 
 # 得到下载页面
@@ -90,6 +101,8 @@ class download():
 
 # 得到下载链接
     def getMagnet(self,content):
+        if content == False:
+            return False 
         string = re.findall('href="(magnet:\?xt=urn:btih:.*)"',content);
         url = string[0]
         with open(self.urlFile,"a+") as f:
@@ -239,7 +252,10 @@ class download():
 
 
 obj = download()
-#obj.getLists()
-#obj.checkRepeat()
-#obj.genDataJs()
+print("getLists")
+obj.getLists()
+print("checkRepeat")
+obj.checkRepeat()
+print("genDataJs")
+obj.genDataJs()
 #obj.toFolder()

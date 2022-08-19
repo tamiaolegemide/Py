@@ -7,7 +7,7 @@
 <meta name="keywords" content="最新合集,人人为我,我为人人" />
 <meta http-equiv="x-ua-compatible" content="ie=7" />
 <link rel='archives' title='人人为我 我为人人' href="https://bbs.huieiv.com/2048/simple/" /><link rel="alternate" type="application/rss+xml" title="RSS" href="https://bbs.huieiv.com/2048/rss.php?fid=3" />
-<base id="headbase" href="https://bbs.huieiv.com/2048/" /><script src="https://pv.sohu.com/cityjson"></script>
+<base id="headbase" href="https://bbs.huieiv.com/2048/" />
 <link rel="stylesheet" type="text/css" href="images/wind-reset.css" /><style type="text/css">
 body{font-size:12pt;background-color:#F8FFFF;font-family:Verdana; color:#333;}
 h3,h2{display:inline;}
@@ -230,8 +230,8 @@ var temp_basename = '';
 <div class="new_topbar">
 <div class="cc"> <span class="new_topbar_left">
 <a href="login.php" title="登录" hidefocus="true">登录</a><a href="register.php" hidefocus="true">注册</a> </span> <ul class="new_topbar_right">
-<li><a href="https://daohangtong.com" id="td_ID43" target="_blank"><font color="#FF0000">地址发布页1</font></a></li>
-<li><a href="https://xingailv.com" id="td_ID42" target="_blank"><font color="#FF0000">地址发布页2</font></a></li>
+<li><a href="https://0531home.com/" id="td_ID43" target="_blank"><font color="#FF0000">地址发布页1</font></a></li>
+<li><a href="https://xzlady.com/" id="td_ID42" target="_blank"><font color="#FF0000">地址发布页2</font></a></li>
 <li><a href="/2048/2048.rar" id="td_ID83" target="_blank"><font color="#0000FF">地址发布器下載</font></a></li>
 <li><a href="javascript:zh_tran('s');">简体</a></li>
 <li><a href="javascript:zh_tran('t');">繁体</a></li> </ul></div>
@@ -395,12 +395,12 @@ getObj('login_type_list').style.display = 'none';
 </div>
 <div id="menu_shortcut" class="menu menu-post cc" style="display:none;">
 <div class="menu-b" style="width:9em;width:150px;">
-<a href="thread.php?fid-15.html">國內原創</a>
+<a href="thread.php?fid-56.html">互动交流</a>
+<a href="thread.php?fid-92.html">精品收录</a>
+<a href="thread.php?fid-57.html">聚友客栈</a>
+<a href="thread.php?fid-287.html">赚米专区</a>
 <a href="thread.php?fid-94.html">稀有首發</a>
-<a href="thread.php?fid-276.html">素人正妹</a>
-<a href="thread.php?fid-5.html">日本騎兵</a>
-<a href="thread.php?fid-187.html">歐美/日本</a>
-<a href="thread.php?fid-195.html">分享福利</a>
+<a href="thread.php?fid-41.html">綜合資源</a>
 </div>
 </div>
 <div class="main-wrap">
@@ -448,22 +448,23 @@ getObj('login_type_list').style.display = 'none';
 </span>
 </div>
 <style>.TOP_PD{width:100%;text-align:center;display:inline-block!important}.TOP_PD2{width:100%;text-align:center;display:inline-block!important}.PD_TAC_BOX{display:inline-block;max-width:100%;margin:0 auto}.PD_TAC_BOX li{padding:0;width:auto;min-width:100px;height:36px;float:left;text-align:center;list-style-type:none;margin:0px!important}.PD_TAC_BOX{display:inline-block;max-width:100%;margin:0 auto;float:left}.PD_TAC_BOX li a{font-size:20px;font-weight:bold}</style><div class="tac" style="margin:.5em 0 0;"><div class="TOP_PD"><div class="PD_TAC_BOX"><li><a href="/htm/a1.htm" target="_BLANK" style="color: red">亚博美女赌场</a>&nbsp;&nbsp;</li><li><a href="/htm/a4.htm" target="_BLANK" style="color: blue">重金担保皇冠</a>&nbsp;&nbsp;</li><li><a href="/htm/a8.htm" target="_BLANK" style="color: green">信誉凤凰娱乐</a>&nbsp;&nbsp;</li><li><a href="/htm/a5.htm" target="_BLANK" style="color: red">澳门皇冠赌场</a>&nbsp;&nbsp;</li><li><a href="/htm/a6.htm" target="_BLANK" style="color: green">逢赌必赢棋牌</a>&nbsp;&nbsp;</li><li><a href="/htm/a7.htm" target="_BLANK" style="color: red">王者信誉棋牌</a>&nbsp;&nbsp;</li><li><a href="/htm/b4.htm" target="_BLANK" style="color: blue">开元棋牌官网</a>&nbsp;&nbsp;</li>
-<li><a href="/htm/b1.htm" target="_BLANK" style="color: green">澳门威尼斯人</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/b1.htm" target="_BLANK" style="color: green">澳門威尼斯人</a>&nbsp;&nbsp;</li>
 <li><a href="/htm/sg.htm" target="_BLANK" style="color: red">澳门赌场直营</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/bba.htm" target="_BLANK" style="color: blue">拉斯维加斯</a>&nbsp;&nbsp;</li>
 </div></div><div class="TOP_PD2"><div class="PD_TAC_BOX">
 <li><a href="/htm/b9.htm" target="_BLANK" style="color: red">威尼斯人赌场</a>&nbsp;&nbsp;</li>
 <li><a href="/htm/a2.htm" target="_BLANK" style="color: blue">澳门葡京赌场</a>&nbsp;&nbsp;</li>
 <li><a href="/htm/b5.htm" target="_BLANK" style="color: red">9 1 福利视频</a>&nbsp;&nbsp;</li><li><a href="/htm/b2.htm" target="_BLANK" style="color: green">银河老牌赌城</a>&nbsp;&nbsp;</li><li><a href="/htm/b6.htm" target="_BLANK" style="color: red">同城在线约炮</a>&nbsp;&nbsp;</li><li><a href="/htm/b3.htm" target="_BLANK" style="color: blue">加人约炮大群</a>&nbsp;&nbsp;</li>
 <li><a href="/htm/b7.htm" target="_BLANK" style="color: green">兼职少妇学生</a>&nbsp;&nbsp;</li>
 <li><a href="/htm/b10.htm" target="_BLANK" style="color: red">鲍鱼聚合直播</a>&nbsp;&nbsp;</li>
-<li><a href="/htm/c1.htm" target="_BLANK" style="color: blue">世界杯定投站</a>&nbsp;&nbsp;</li>
-<li><a href="/htm/vk.htm" target="_BLANK" style="color: red">o 良家小姐 o</a></li>
+<li><a href="/htm/vk.htm" target="_BLANK" style="color: blue">同城真实做爱</a>&nbsp;&nbsp;</li>
+<li><a href="/htm/lj.htm" target="_BLANK" style="color: red">真约炮APP</a></li>
 </div></div></div><div class="c"></div>
 <div class="c" id="c"></div>
 <div class="t3 cc">
 <span class="fr"><a href="post.php?fid=3" title="发表新帖"><img src="images/wind/post.png" id="td_post" /></a></span>
 <div style="padding-top:18px;" class="cc">
-<span class="fl"><div class="pages"><a href="thread.php?fid-3-page-1.html" class="b">&laquo;</a><b>1</b><a href="thread.php?fid-3-page-2.html">2</a><a href="thread.php?fid-3-page-3.html">3</a><a href="thread.php?fid-3-page-4.html">4</a><a href="thread.php?fid-3-page-5.html">5</a><a href="thread.php?fid-3-page-576.html" class="b">&raquo;</a><span class="pagesone"><span>Pages: 1/576</span><input type="text" size="3" onkeydown="javascript: if(event.keyCode==13){ location='thread.php?fid=3&page='+this.value+'';return false;}"><button onclick="javascript:  location='thread.php?fid=3&page='+this.previousSibling.value+'';return false;">Go</button></span></div></span>
+<span class="fl"><div class="pages"><a href="thread.php?fid-3-page-1.html" class="b">&laquo;</a><b>1</b><a href="thread.php?fid-3-page-2.html">2</a><a href="thread.php?fid-3-page-3.html">3</a><a href="thread.php?fid-3-page-4.html">4</a><a href="thread.php?fid-3-page-5.html">5</a><a href="thread.php?fid-3-page-597.html" class="b">&raquo;</a><span class="pagesone"><span>Pages: 1/597</span><input type="text" size="3" onkeydown="javascript: if(event.keyCode==13){ location='thread.php?fid=3&page='+this.value+'';return false;}"><button onclick="javascript:  location='thread.php?fid=3&page='+this.previousSibling.value+'';return false;">Go</button></span></div></span>
 </div>
 </div>
 <div id="menu_post" class="menu menu-post cc f14 tac" style="display:none;">
@@ -560,9 +561,20 @@ return hidden;
 <td class="y-style f10">2019-05-02 08:15</td>
 </tr>
 <tr align="center" class="tr3 t_one">
+<td><a title="锁定主题 " href="read.php?tid-6994077.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_6994077">[08-08]
+<img src="images/wind/file/headtopic_3.gif" align="absmiddle" title="置顶帖标志" /><a href="read.php?tid-6994077.html" target="_blank" id="a_ajax_6994077" class="subject"><b><font color=#FF0000>全国各地约炮大群,免费同城约啪,暑期嫩妹兼职失业少妇SM调教绳艺全覆盖</font></b></a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=34663" class="bl">admin</a>
+<div class="f10 gray">2022-08-08</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-6994077-page-e-fpage-1.html#a">admin</a><br />
+<span class="f10 gray">2022-08-08 20:47</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
 <td><a title="锁定主题 " href="read.php?tid-4378369.html" target="_blank">⊙</a></td>
 <td class="tal" id="td_4378369">[10-20]
-<img src="images/wind/file/headtopic_3.gif" align="absmiddle" title="置顶帖标志" /><a href="read.php?tid-4378369.html" target="_blank" id="a_ajax_4378369" class="subject"><b><font color=#008000>全国各地约炮大群，男女约炮服务，享受同城兼职少妇模特学生上门约啪！</font></b></a>&nbsp; <span class='gray'><span class="subject">( <span class="s1">金币+3</span>)</sapn></span> </td>
+<img src="images/wind/file/headtopic_3.gif" align="absmiddle" title="置顶帖标志" /><a href="read.php?tid-4378369.html" target="_blank" id="a_ajax_4378369" class="subject"><b><font color=#008000>全国各地约炮大群，男女约炮服务，享受同城兼职少妇模特学生上门约啪！</font></b></a>&nbsp; <span class='gray'><span class="subject">( <span class="s1">金币+4</span>)</sapn></span> </td>
 <td class="tal y-style"><a href="u.php?action=show&uid=0" class="bl">匿名</a>
 <div class="f10 gray">2021-10-20</div></td>
 <td class="tal y-style f10 gray"><span class="s3">0</span></td>
@@ -604,9 +616,10 @@ return hidden;
 &nbsp;&nbsp;<a href="/htm/a4.htm" target="_blank"><font size="4" color="green"><b>皇冠体育</b></font></a>
 &nbsp;&nbsp;<a href="/htm/a8.htm" target="_blank"><font size="4" color="green"><b>凤凰娱乐</b></font></a>
 &nbsp;&nbsp;<a href="/htm/b7.htm" target="_blank"><font size="4" color="red"><b>同城约炮</b></font></a>
-&nbsp;&nbsp;<a href="/htm/b1.htm" target="_blank"><font size="4" color="blue"><b>真人娱乐</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b1.htm" target="_blank"><font size="4" color="blue"><b>威尼斯人</b></font></a>
 &nbsp;&nbsp;<a href="/htm/b10.htm" target="_blank"><font size="4" color="red"><b>聚合直播</b></font></a>
 &nbsp;&nbsp;<a href="/htm/sg.htm" target="_blank"><font size="4" color="blue"><b>现金棋牌</b></font></a>
+&nbsp;&nbsp;<a href="/htm/bba.htm" target="_blank"><font size="4" color="red"><b>现金赌场</b></font></a>
 <br>
 <a href="/htm/a5.htm" target="_blank"><font size="4" color="red"><b>皇冠赌场</b></font></a>
 &nbsp;&nbsp;<a href="/htm/a6.htm" target="_blank"><font size="4" color="green"><b>必赢棋牌</b></font></a>
@@ -616,576 +629,564 @@ return hidden;
 &nbsp;&nbsp;<a href="/htm/b2.htm" target="_blank"><font size="4" color="red"><b>银河赌场</b></font></a>
 &nbsp;&nbsp;<a href="/htm/b6.htm" target="_blank"><font size="4" color="blue"><b>约炮大群</b></font></a>
 &nbsp;&nbsp;<a href="/htm/b3.htm" target="_blank"><font size="4" color="green"><b>兼职少妇</b></font></a>
-&nbsp;&nbsp;<a href="/htm/c1.htm" target="_blank"><font size="4" color="blue"><b>必博体育</b></font></a>
-&nbsp;&nbsp;<a href="/htm/vk.htm" target="_blank"><font size="4" color="red"><b>同城做爱</b></font></a>
+&nbsp;&nbsp;<a href="/htm/vk.htm" target="_blank"><font size="4" color="red"><b>同城炮友</b></font></a>
+&nbsp;&nbsp;<a href="/htm/lj.htm" target="_blank"><font size="4" color="blue"><b>下海兼职</b></font></a>
 </td><td><span class="m-hidden"><font color="">2048</font></span></td> <td class="tal y-style f10 gray"><span class="s3">15</span></td>
 </tr>
 </tr>
 
 <tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6788381.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6788381">[07-21]
+<td><a title="开放主题" href="state/p/3/2208/7061574.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7061574">[08-12]
 
-<a href="state/p/3/2207/6788381.html" target="_blank" id="a_ajax_6788381" class="subject">▲老含及▲中文字幕合集[07.21]</a>&nbsp; <img src="images/wind/file/new.gif" align="absmiddle" title="新帖标志" />
+<a href="state/p/3/2208/7061574.html" target="_blank" id="a_ajax_7061574" class="subject">※核基地※最新素人精选☆17片☆合集㊣♀</a>&nbsp; <img src="images/wind/file/new.gif" align="absmiddle" title="新帖标志" />
 </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6788381-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-21 10:07</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6787868.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6787868">[07-21]
-
-<a href="state/p/3/2207/6787868.html" target="_blank" id="a_ajax_6787868" class="subject">▲核基地▲最新の國產合集☆15部㊣♀ [7.21]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=1016648" class="bl">優衣庫</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6787868-page-e-fpage-1.html#a">優衣庫</a><br />
-<span class="f10 gray">2022-07-21 09:00</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6786852.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6786852">[07-21]
-
-<a href="state/p/3/2207/6786852.html" target="_blank" id="a_ajax_6786852" class="subject">★◇精彩の最新國產㊣↗精品合集↘♀ [07.21]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6786852-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-21 02:57</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6786677.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6786677">[07-21]
-
-<a href="state/p/3/2207/6786677.html" target="_blank" id="a_ajax_6786677" class="subject">核基地▲最新無碼高清FHD-合集 [07-21]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=12" class="bl">核基地</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6786677-page-e-fpage-1.html#a">核基地</a><br />
-<span class="f10 gray">2022-07-21 01:55</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6786627.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6786627">[07-21]
-
-<a href="state/p/3/2207/6786627.html" target="_blank" id="a_ajax_6786627" class="subject">▲kkpub▲國產色男騷女自拍合集[07.20]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6786627-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-21 01:44</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6786582.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6786582">[07-21]
-
-<a href="state/p/3/2207/6786582.html" target="_blank" id="a_ajax_6786582" class="subject">※核基地※無碼精选☆30片☆合集㊣♀</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=8211" class="bl">无码专员</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6786582-page-e-fpage-1.html#a">无码专员</a><br />
-<span class="f10 gray">2022-07-21 01:38</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6786579.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6786579">[07-21]
-
-<a href="state/p/3/2207/6786579.html" target="_blank" id="a_ajax_6786579" class="subject">[07月21日]高清の亞洲无碼㊣精彩合集@二十八部高清√√</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=3041" class="bl">hdt5jrk</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6786579-page-e-fpage-1.html#a">hdt5jrk</a><br />
-<span class="f10 gray">2022-07-21 01:38</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6786286.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6786286">[07-21]
-
-<a href="state/p/3/2207/6786286.html" target="_blank" id="a_ajax_6786286" class="subject">▲核基地▲最新中文の合集☆30部㊣♀</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=245143" class="bl">中字专员</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6786286-page-e-fpage-1.html#a">中字专员</a><br />
-<span class="f10 gray">2022-07-21 00:43</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6786213.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6786213">[07-21]
-
-<a href="state/p/3/2207/6786213.html" target="_blank" id="a_ajax_6786213" class="subject">★◇精彩の套图写真㊣↗精品合集↘♀ [07.21]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6786213-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-21 00:34</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6786211.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6786211">[07-21]
-
-<a href="state/p/3/2207/6786211.html" target="_blank" id="a_ajax_6786211" class="subject">★◇精彩の亚洲无码㊣↗经典合集↘♀ [07.21]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6786211-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-21 00:34</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6786208.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6786208">[07-21]
-
-<a href="state/p/3/2207/6786208.html" target="_blank" id="a_ajax_6786208" class="subject">★◇精彩の國產剧情AV㊣↗精品合集↘♀[07.21]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6786208-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-21 00:34</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6786189.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6786189">[07-21]
-
-<a href="state/p/3/2207/6786189.html" target="_blank" id="a_ajax_6786189" class="subject">★◇精彩の最新國產㊣↗精品合集↘♀ [07.21]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-21</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6786189-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-21 00:32</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6785654.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6785654">[07-20]
-
-<a href="state/p/3/2207/6785654.html" target="_blank" id="a_ajax_6785654" class="subject">★★灣搭★新片首发★最強有碼專輯♂07.20</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6785654-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 23:00</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6785620.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6785620">[07-20]
-
-<a href="state/p/3/2207/6785620.html" target="_blank" id="a_ajax_6785620" class="subject">【2022-07-20】最新の国产无码精品♀↗极品合集㊣♂（二）</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=958908" class="bl">myheroman</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6785620-page-e-fpage-1.html#a">myheroman</a><br />
-<span class="f10 gray">2022-07-20 22:52</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6785492.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6785492">[07-20]
-
-<a href="state/p/3/2207/6785492.html" target="_blank" id="a_ajax_6785492" class="subject">★★灣搭★新片首发★不得不看的高顏值獨家素人專輯♂07.20</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6785492-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 22:42</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6785317.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6785317">[07-20]
-
-<a href="state/p/3/2207/6785317.html" target="_blank" id="a_ajax_6785317" class="subject">★小隻馬★經典國產合集♂07.20</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6785317-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 22:09</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6785313.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6785313">[07-20]
-
-<a href="state/p/3/2207/6785313.html" target="_blank" id="a_ajax_6785313" class="subject">★小隻馬★無碼中文字幕合集♂07.20</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6785313-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 22:09</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6784907.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6784907">[07-20]
-
-<a href="state/p/3/2207/6784907.html" target="_blank" id="a_ajax_6784907" class="subject">▲tj1221▲高清有碼合集[07.20]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6784907-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 21:08</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6784478.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6784478">[07-20]
-
-<a href="state/p/3/2207/6784478.html" target="_blank" id="a_ajax_6784478" class="subject">▲核基地▲歐美の合集☆35部㊣♀</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=8229" class="bl">西洋首发</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6784478-page-e-fpage-1.html#a">西洋首发</a><br />
-<span class="f10 gray">2022-07-20 20:08</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6784473.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6784473">[07-20]
-
-<a href="state/p/3/2207/6784473.html" target="_blank" id="a_ajax_6784473" class="subject">※核基地※最新素人中文☆20片☆合集㊣♀</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=245143" class="bl">中字专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6784473-page-e-fpage-1.html#a">中字专员</a><br />
-<span class="f10 gray">2022-07-20 20:07</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6784410.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6784410">[07-20]
-
-<a href="state/p/3/2207/6784410.html" target="_blank" id="a_ajax_6784410" class="subject">▲小隻馬▲新片首发▲中文字幕有碼合集♂[0720]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6784410-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 19:58</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6784031.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6784031">[07-20]
-
-<a href="state/p/3/2207/6784031.html" target="_blank" id="a_ajax_6784031" class="subject">▲小隻馬▲新片首发▲最強有碼合集♂[0720]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6784031-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 19:24</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6783949.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6783949">[07-20]
-
-<a href="state/p/3/2207/6783949.html" target="_blank" id="a_ajax_6783949" class="subject">★★灣搭★新片首发★超級國產偷拍專輯♂[07.20]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6783949-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 19:15</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6783756.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6783756">[07-20]
-
-<a href="state/p/3/2207/6783756.html" target="_blank" id="a_ajax_6783756" class="subject">★●經典の歐美無碼㊣↗?精彩合集↘?♀ [07.20]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6783756-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 18:55</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6783730.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6783730">[07-20]
-
-<a href="state/p/3/2207/6783730.html" target="_blank" id="a_ajax_6783730" class="subject">★●經典の店長推薦㊣↗?無碼合集↘?♀ [07.20]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6783730-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 18:53</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6783360.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6783360">[07-20]
-
-<a href="state/p/3/2207/6783360.html" target="_blank" id="a_ajax_6783360" class="subject">07/20 ❤5部精選新片❤《有碼中文》【5V5.81G】【种子】</a>&nbsp; <img src="images/wind/file/zip.gif" border=0 align="absmiddle"></td>
-<td class="tal y-style"><a href="u.php?action=show&uid=2004116" class="bl">badkid</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6783360-page-e-fpage-1.html#a">badkid</a><br />
-<span class="f10 gray">2022-07-20 18:09</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6782971.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6782971">[07-20]
-
-<a href="state/p/3/2207/6782971.html" target="_blank" id="a_ajax_6782971" class="subject">㊣ 新片首發 ★蜂鸟★ 高清原檔-6K-有碼合集 [07.20] ▲</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=86618" class="bl">iphone</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6782971-page-e-fpage-1.html#a">iphone</a><br />
-<span class="f10 gray">2022-07-20 17:28</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6782858.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6782858">[07-20]
-
-<a href="state/p/3/2207/6782858.html" target="_blank" id="a_ajax_6782858" class="subject">♀国产精品AV㊣网红自拍合集♀[07.20]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=31321" class="bl">hdgc</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6782858-page-e-fpage-1.html#a">hdgc</a><br />
-<span class="f10 gray">2022-07-20 17:17</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6781305.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6781305">[07-20]
-
-<a href="state/p/3/2207/6781305.html" target="_blank" id="a_ajax_6781305" class="subject">核基地▲最新极致破坏版HD-合集 [07-20]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=9071" class="bl">无码大神</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6781305-page-e-fpage-1.html#a">无码大神</a><br />
-<span class="f10 gray">2022-07-20 16:32</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6781088.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6781088">[07-20]
-
-<a href="state/p/3/2207/6781088.html" target="_blank" id="a_ajax_6781088" class="subject">【新片速遞】❤️精品推荐❤️极品真女伪娘情侣CD『LolaSpais』OnlyFans粉丝高级订阅全集89V [24GB/MP4]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6781088-page-e-fpage-1.html#a">無印優品</a><br />
-<span class="f10 gray">2022-07-20 16:20</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6781019.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6781019">[07-20]
-
-<a href="state/p/3/2207/6781019.html" target="_blank" id="a_ajax_6781019" class="subject">【新片速遞】隔墙有眼⭐⭐天价外购⭐⭐⭐丝高制大神黑丝盛筵系列三[5200MB/MP4]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6781019-page-e-fpage-1.html#a">無印優品</a><br />
-<span class="f10 gray">2022-07-20 16:16</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6780931.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6780931">[07-20]
-
-<a href="state/p/3/2207/6780931.html" target="_blank" id="a_ajax_6780931" class="subject">【新片速遞】【重磅 抖音直播技术性走光 热舞 露底 美女云集 481V合集】 ，各种意外漏点，惊慌失措中挑战你的感官刺激[3.76G/MP4]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6780931-page-e-fpage-1.html#a">無印優品</a><br />
-<span class="f10 gray">2022-07-20 16:08</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6780589.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6780589">[07-20]
-
-<a href="state/p/3/2207/6780589.html" target="_blank" id="a_ajax_6780589" class="subject">※核基地※最新素人精选☆43片☆合集㊣♀</a>&nbsp; </td>
 <td class="tal y-style"><a href="u.php?action=show&uid=7856" class="bl">骑兵专员</a>
-<div class="f10 gray">2022-07-20</div></td>
+<div class="f10 gray">2022-08-12</div></td>
 <td class="tal y-style f10 gray"><span class="s3">0</span></td>
 <td class="tal y-style">
-<a href="read.php?tid-6780589-page-e-fpage-1.html#a">骑兵专员</a><br />
-<span class="f10 gray">2022-07-20 15:30</span>
+<a href="read.php?tid-7061574-page-e-fpage-1.html#a">骑兵专员</a><br />
+<span class="f10 gray">2022-08-12 10:17</span>
 </td>
 </tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6780400.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6780400">[07-20]
+<td><a title="开放主题" href="state/p/3/2208/7061106.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7061106">[08-12]
 
-<a href="state/p/3/2207/6780400.html" target="_blank" id="a_ajax_6780400" class="subject">♀精品国产自拍㊣精彩合集♀ [07.20]</a>&nbsp; </td>
+<a href="state/p/3/2208/7061106.html" target="_blank" id="a_ajax_7061106" class="subject">[08月12日]高清の亞洲无碼㊣精彩合集@十二部高清√√</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=3041" class="bl">hdt5jrk</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7061106-page-e-fpage-1.html#a">hdt5jrk</a><br />
+<span class="f10 gray">2022-08-12 08:55</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7061041.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7061041">[08-12]
+
+<a href="state/p/3/2208/7061041.html" target="_blank" id="a_ajax_7061041" class="subject">▲核基地▲最新の國產合集☆15部㊣♀ [8.12]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=1016648" class="bl">優衣庫</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7061041-page-e-fpage-1.html#a">優衣庫</a><br />
+<span class="f10 gray">2022-08-12 08:40</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7059847.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7059847">[08-12]
+
+<a href="state/p/3/2208/7059847.html" target="_blank" id="a_ajax_7059847" class="subject">核基地▲最新無碼高清FHD-合集 [08-12]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=12" class="bl">核基地</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7059847-page-e-fpage-1.html#a">核基地</a><br />
+<span class="f10 gray">2022-08-12 03:32</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7059494.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7059494">[08-12]
+
+<a href="state/p/3/2208/7059494.html" target="_blank" id="a_ajax_7059494" class="subject">※核基地※無碼精选☆30片☆合集㊣♀</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=8211" class="bl">无码专员</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7059494-page-e-fpage-1.html#a">无码专员</a><br />
+<span class="f10 gray">2022-08-12 02:47</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7059333.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7059333">[08-12]
+
+<a href="state/p/3/2208/7059333.html" target="_blank" id="a_ajax_7059333" class="subject">▲吃雞大神▲最強有碼合集[08.10]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7059333-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-12 02:30</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7058813.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7058813">[08-12]
+
+<a href="state/p/3/2208/7058813.html" target="_blank" id="a_ajax_7058813" class="subject">▲核基地▲歐美の合集☆35部㊣♀</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=8229" class="bl">西洋首发</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7058813-page-e-fpage-1.html#a">西洋首发</a><br />
+<span class="f10 gray">2022-08-12 01:14</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7058781.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7058781">[08-12]
+
+<a href="state/p/3/2208/7058781.html" target="_blank" id="a_ajax_7058781" class="subject">▲kkpub▲極品國產騷女合集[08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7058781-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-12 01:11</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7058572.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7058572">[08-12]
+
+<a href="state/p/3/2208/7058572.html" target="_blank" id="a_ajax_7058572" class="subject">※核基地※國內原創精选★30片★合集㊣♀</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=8487" class="bl">国产专员</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7058572-page-e-fpage-1.html#a">国产专员</a><br />
+<span class="f10 gray">2022-08-12 00:51</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7058481.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7058481">[08-12]
+
+<a href="state/p/3/2208/7058481.html" target="_blank" id="a_ajax_7058481" class="subject">★◇精彩の最新國產㊣↗精品合集↘♀ [08.12]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7058481-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-12 00:44</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7058477.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7058477">[08-12]
+
+<a href="state/p/3/2208/7058477.html" target="_blank" id="a_ajax_7058477" class="subject">★◇精彩の套图写真㊣↗精品合集↘♀ [08.12]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7058477-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-12 00:44</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7058471.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7058471">[08-12]
+
+<a href="state/p/3/2208/7058471.html" target="_blank" id="a_ajax_7058471" class="subject">★◇精彩の亚洲无码㊣↗经典合集↘♀ [08.12]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7058471-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-12 00:44</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7058041.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7058041">[08-12]
+
+<a href="state/p/3/2208/7058041.html" target="_blank" id="a_ajax_7058041" class="subject">◆正片大片の★◆经典三级片の大合集[0812]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-12</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7058041-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-12 00:01</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7057873.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7057873">[08-11]
+
+<a href="state/p/3/2208/7057873.html" target="_blank" id="a_ajax_7057873" class="subject">㊣ 新片首發 ★蜂鸟★ 高清有码原檔-3K [08.11] ▲</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=86618" class="bl">iphone</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7057873-page-e-fpage-1.html#a">iphone</a><br />
+<span class="f10 gray">2022-08-11 23:41</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7057864.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7057864">[08-11]
+
+<a href="state/p/3/2208/7057864.html" target="_blank" id="a_ajax_7057864" class="subject">㊣ 新片首發 ★蜂鸟★ 高清原檔-1K-有碼合集 [08.11] ▲</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=86618" class="bl">iphone</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7057864-page-e-fpage-1.html#a">iphone</a><br />
+<span class="f10 gray">2022-08-11 23:40</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7057855.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7057855">[08-11]
+
+<a href="state/p/3/2208/7057855.html" target="_blank" id="a_ajax_7057855" class="subject">★★灣搭★新片首发★最強有碼專輯♂08.11</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7057855-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 23:38</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7057789.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7057789">[08-11]
+
+<a href="state/p/3/2208/7057789.html" target="_blank" id="a_ajax_7057789" class="subject">【新片速遞】 重磅来袭！超级女神 MARI 你要的她都有,SM老师JK和服捆绑露出，大型图书馆做爱 什么圣诞服 各种各样[11.31G/MP4]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7057789-page-e-fpage-1.html#a">無印優品</a><br />
+<span class="f10 gray">2022-08-11 23:32</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7057537.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7057537">[08-11]
+
+<a href="state/p/3/2208/7057537.html" target="_blank" id="a_ajax_7057537" class="subject">【2022-08-11】最新の国产无码精品♀↗极品合集㊣♂</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=958908" class="bl">myheroman</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7057537-page-e-fpage-1.html#a">myheroman</a><br />
+<span class="f10 gray">2022-08-11 23:09</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7057220.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7057220">[08-11]
+
+<a href="state/p/3/2208/7057220.html" target="_blank" id="a_ajax_7057220" class="subject">♀国产精品AV㊣网红自拍合集♀[08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=31321" class="bl">hdgc</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7057220-page-e-fpage-1.html#a">hdgc</a><br />
+<span class="f10 gray">2022-08-11 22:30</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7057024.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7057024">[08-11]
+
+<a href="state/p/3/2208/7057024.html" target="_blank" id="a_ajax_7057024" class="subject">★◇精彩の最新動漫㊣↗?精品合集↘?♀[08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7057024-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 22:07</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7056994.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7056994">[08-11]
+
+<a href="state/p/3/2208/7056994.html" target="_blank" id="a_ajax_7056994" class="subject">★●經典の國產無碼㊣↗?精彩合集↘?♀ [08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7056994-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 22:05</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7056676.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7056676">[08-11]
+
+<a href="state/p/3/2208/7056676.html" target="_blank" id="a_ajax_7056676" class="subject">★●經典の店長推薦㊣↗?無碼合集↘?♀ [08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7056676-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 21:35</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7056674.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7056674">[08-11]
+
+<a href="state/p/3/2208/7056674.html" target="_blank" id="a_ajax_7056674" class="subject">★●經典の歐美無碼㊣↗?精彩合集↘?♀ [08.1]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7056674-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 21:35</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7056449.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7056449">[08-11]
+
+<a href="state/p/3/2208/7056449.html" target="_blank" id="a_ajax_7056449" class="subject">▲老含及▲欧美無码合集[08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7056449-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 21:01</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7056206.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7056206">[08-11]
+
+<a href="state/p/3/2208/7056206.html" target="_blank" id="a_ajax_7056206" class="subject">♀精品国产自拍㊣精彩合集♀ [08.11]</a>&nbsp; </td>
 <td class="tal y-style"><a href="u.php?action=show&uid=6676" class="bl">罗马教皇</a>
-<div class="f10 gray">2022-07-20</div></td>
+<div class="f10 gray">2022-08-11</div></td>
 <td class="tal y-style f10 gray"><span class="s3">0</span></td>
 <td class="tal y-style">
-<a href="read.php?tid-6780400-page-e-fpage-1.html#a">罗马教皇</a><br />
-<span class="f10 gray">2022-07-20 15:12</span>
+<a href="read.php?tid-7056206-page-e-fpage-1.html#a">罗马教皇</a><br />
+<span class="f10 gray">2022-08-11 20:20</span>
 </td>
 </tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6780221.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6780221">[07-20]
+<td><a title="开放主题" href="state/p/3/2208/7056088.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7056088">[08-11]
 
-<a href="state/p/3/2207/6780221.html" target="_blank" id="a_ajax_6780221" class="subject">7-20_最新1K严选有码系列 十连发 [中文字幕]</a>&nbsp; <img src="images/wind/file/zip.gif" border=0 align="absmiddle"></td>
+<a href="state/p/3/2208/7056088.html" target="_blank" id="a_ajax_7056088" class="subject">▲老含及▲中文有碼合集[08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7056088-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 20:02</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055943.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055943">[08-11]
+
+<a href="state/p/3/2208/7055943.html" target="_blank" id="a_ajax_7055943" class="subject">㊣ 新片首發 ★蜂鸟★ 高清有碼合集 [08.11] ▲</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=86618" class="bl">iphone</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055943-page-e-fpage-1.html#a">iphone</a><br />
+<span class="f10 gray">2022-08-11 19:36</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055699.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055699">[08-11]
+
+<a href="state/p/3/2208/7055699.html" target="_blank" id="a_ajax_7055699" class="subject">▲小隻馬▲新片首发▲最強有碼合集♂[0811]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055699-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 19:25</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055533.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055533">[08-11]
+
+<a href="state/p/3/2208/7055533.html" target="_blank" id="a_ajax_7055533" class="subject">▲老含及▲高清有碼合集[08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055533-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 18:55</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055504.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055504">[08-11]
+
+<a href="state/p/3/2208/7055504.html" target="_blank" id="a_ajax_7055504" class="subject">▲小隻馬▲新片首发▲中文字幕有碼合集♂[0811]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055504-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 18:52</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055451.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055451">[08-11]
+
+<a href="state/p/3/2208/7055451.html" target="_blank" id="a_ajax_7055451" class="subject">▲規懶趴會▲高清有碼合集[08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055451-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 18:43</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055446.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055446">[08-11]
+
+<a href="state/p/3/2208/7055446.html" target="_blank" id="a_ajax_7055446" class="subject">▲規懶趴會▲欧美無码合集[08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055446-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 18:43</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055296.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055296">[08-11]
+
+<a href="state/p/3/2208/7055296.html" target="_blank" id="a_ajax_7055296" class="subject">㊣ 新片首發 ★蜂鸟★ 高清原檔-6K-有碼合集 [08.11] ▲</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=86618" class="bl">iphone</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055296-page-e-fpage-1.html#a">iphone</a><br />
+<span class="f10 gray">2022-08-11 18:22</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055295.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055295">[08-11]
+
+<a href="state/p/3/2208/7055295.html" target="_blank" id="a_ajax_7055295" class="subject">㊣ 新片首發 ★蜂鸟★ 高清原檔-6K-有碼合集 [08.11] ▲</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=86618" class="bl">iphone</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055295-page-e-fpage-1.html#a">iphone</a><br />
+<span class="f10 gray">2022-08-11 18:22</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055293.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055293">[08-11]
+
+<a href="state/p/3/2208/7055293.html" target="_blank" id="a_ajax_7055293" class="subject">㊣ 新片首發 ★蜂鸟★ 高清原檔-6K-有碼合集 [08.11] ▲</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=86618" class="bl">iphone</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055293-page-e-fpage-1.html#a">iphone</a><br />
+<span class="f10 gray">2022-08-11 18:22</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055248.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055248">[08-11]
+
+<a href="state/p/3/2208/7055248.html" target="_blank" id="a_ajax_7055248" class="subject">核基地▲最新极致破坏版HD-合集 [08-11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=9071" class="bl">无码大神</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055248-page-e-fpage-1.html#a">无码大神</a><br />
+<span class="f10 gray">2022-08-11 18:15</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055173.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055173">[08-11]
+
+<a href="state/p/3/2208/7055173.html" target="_blank" id="a_ajax_7055173" class="subject">※核基地※無碼精选☆30片☆合集㊣♀</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=8211" class="bl">无码专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055173-page-e-fpage-1.html#a">无码专员</a><br />
+<span class="f10 gray">2022-08-11 18:00</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055018.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055018">[08-11]
+
+<a href="state/p/3/2208/7055018.html" target="_blank" id="a_ajax_7055018" class="subject">08/11 ❤5部精選新片❤《有碼中文》【5V5.21G】【种子】</a>&nbsp; <img src="images/wind/file/zip.gif" border=0 align="absmiddle"></td>
+<td class="tal y-style"><a href="u.php?action=show&uid=2004116" class="bl">badkid</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055018-page-e-fpage-1.html#a">badkid</a><br />
+<span class="f10 gray">2022-08-11 17:41</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7055009.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7055009">[08-11]
+
+<a href="state/p/3/2208/7055009.html" target="_blank" id="a_ajax_7055009" class="subject">▲tj1221▲欧美無码合集[08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7055009-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 17:39</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7054440.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7054440">[08-11]
+
+<a href="state/p/3/2208/7054440.html" target="_blank" id="a_ajax_7054440" class="subject">★●經典の日本騎兵㊣↗精彩合集↘♀[08.11]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7054440-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 16:23</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7054295.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7054295">[08-11]
+
+<a href="state/p/3/2208/7054295.html" target="_blank" id="a_ajax_7054295" class="subject">【新片速遞】 【全新360】2020新品，宾馆全景（霓虹灯房）8月全月281V内容，大学生，白领，良家小夫妻，学生妹，真实性爱[13.8G/MP4]</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
+<div class="f10 gray">2022-08-11</div></td>
+<td class="tal y-style f10 gray"><span class="s3">0</span></td>
+<td class="tal y-style">
+<a href="read.php?tid-7054295-page-e-fpage-1.html#a">無印優品</a><br />
+<span class="f10 gray">2022-08-11 16:04</span>
+</td>
+</tr><tr align="center" class="tr3 t_one">
+<td><a title="开放主题" href="state/p/3/2208/7054096.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7054096">[08-11]
+
+<a href="state/p/3/2208/7054096.html" target="_blank" id="a_ajax_7054096" class="subject">8-11_最新1K严选有码系列 十连发 [中文字幕]</a>&nbsp; <img src="images/wind/file/zip.gif" border=0 align="absmiddle"></td>
 <td class="tal y-style"><a href="u.php?action=show&uid=486650" class="bl">javbbs</a>
-<div class="f10 gray">2022-07-20</div></td>
+<div class="f10 gray">2022-08-11</div></td>
 <td class="tal y-style f10 gray"><span class="s3">0</span></td>
 <td class="tal y-style">
-<a href="read.php?tid-6780221-page-e-fpage-1.html#a">javbbs</a><br />
-<span class="f10 gray">2022-07-20 14:52</span>
+<a href="read.php?tid-7054096-page-e-fpage-1.html#a">javbbs</a><br />
+<span class="f10 gray">2022-08-11 15:40</span>
 </td>
 </tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6779854.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6779854">[07-20]
+<td><a title="开放主题" href="state/p/3/2208/7053307.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7053307">[08-11]
 
-<a href="state/p/3/2207/6779854.html" target="_blank" id="a_ajax_6779854" class="subject">2022-7-20 最新亚洲有码合集</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
+<a href="state/p/3/2208/7053307.html" target="_blank" id="a_ajax_7053307" class="subject">【2022-08-10】最新の国产无码精品♀↗极品合集㊣♂</a>&nbsp; </td>
+<td class="tal y-style"><a href="u.php?action=show&uid=958908" class="bl">myheroman</a>
+<div class="f10 gray">2022-08-11</div></td>
 <td class="tal y-style f10 gray"><span class="s3">0</span></td>
 <td class="tal y-style">
-<a href="read.php?tid-6779854-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 14:09</span>
+<a href="read.php?tid-7053307-page-e-fpage-1.html#a">myheroman</a><br />
+<span class="f10 gray">2022-08-11 13:06</span>
 </td>
 </tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6779698.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6779698">[07-20]
+<td><a title="开放主题" href="state/p/3/2208/7052996.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7052996">[08-11]
 
-<a href="state/p/3/2207/6779698.html" target="_blank" id="a_ajax_6779698" class="subject">★●經典の日本騎兵㊣↗精彩合集↘♀[07.20]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6779698-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 13:56</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6779683.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6779683">[07-20]
-
-<a href="state/p/3/2207/6779683.html" target="_blank" id="a_ajax_6779683" class="subject">★●中文字幕の日本騎兵㊣↗合集↘♀ [07.20]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6779683-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 13:55</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6779508.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6779508">[07-20]
-
-<a href="state/p/3/2207/6779508.html" target="_blank" id="a_ajax_6779508" class="subject">㊣ 新片首發 ★蜂鸟★ 高清有码原檔-3K [07.20] ▲</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=86618" class="bl">iphone</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6779508-page-e-fpage-1.html#a">iphone</a><br />
-<span class="f10 gray">2022-07-20 13:34</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6779504.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6779504">[07-20]
-
-<a href="state/p/3/2207/6779504.html" target="_blank" id="a_ajax_6779504" class="subject">㊣ 新片首發 ★蜂鸟★ 高清原檔-1K-有碼合集 [07.20] ▲</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=86618" class="bl">iphone</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6779504-page-e-fpage-1.html#a">iphone</a><br />
-<span class="f10 gray">2022-07-20 13:34</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6779345.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6779345">[07-20]
-
-<a href="state/p/3/2207/6779345.html" target="_blank" id="a_ajax_6779345" class="subject">★◇精彩の最新国產㊣↗精品合集↘♀【07.20】</a>&nbsp; </td>
+<a href="state/p/3/2208/7052996.html" target="_blank" id="a_ajax_7052996" class="subject">★★★★の中日欧无码♀↗️收藏合集☆♂【08.11】</a>&nbsp; </td>
 <td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
-<div class="f10 gray">2022-07-20</div></td>
+<div class="f10 gray">2022-08-11</div></td>
 <td class="tal y-style f10 gray"><span class="s3">0</span></td>
 <td class="tal y-style">
-<a href="read.php?tid-6779345-page-e-fpage-1.html#a">無印優品</a><br />
-<span class="f10 gray">2022-07-20 13:03</span>
+<a href="read.php?tid-7052996-page-e-fpage-1.html#a">無印優品</a><br />
+<span class="f10 gray">2022-08-11 12:11</span>
 </td>
 </tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6779026.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6779026">[07-20]
+<td><a title="开放主题" href="state/p/3/2208/7052802.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7052802">[08-11]
 
-<a href="state/p/3/2207/6779026.html" target="_blank" id="a_ajax_6779026" class="subject">2.&nbsp;&nbsp;★★★★の中日欧无码♀↗️收藏合集☆♂【07.20】</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=1014482" class="bl">無印優品</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6779026-page-e-fpage-1.html#a">無印優品</a><br />
-<span class="f10 gray">2022-07-20 12:06</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6778948.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6778948">[07-20]
-
-<a href="state/p/3/2207/6778948.html" target="_blank" id="a_ajax_6778948" class="subject">★●經典の島國步兵㊣↗?精彩合集↘?♀ [07.20]</a>&nbsp; </td>
+<a href="state/p/3/2208/7052802.html" target="_blank" id="a_ajax_7052802" class="subject">★●中文字幕の日本騎兵㊣↗合集↘♀ [08.11]</a>&nbsp; </td>
 <td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
+<div class="f10 gray">2022-08-11</div></td>
 <td class="tal y-style f10 gray"><span class="s3">0</span></td>
 <td class="tal y-style">
-<a href="read.php?tid-6778948-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 11:56</span>
+<a href="read.php?tid-7052802-page-e-fpage-1.html#a">在线专员</a><br />
+<span class="f10 gray">2022-08-11 11:35</span>
 </td>
 </tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6778933.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6778933">[07-20]
+<td><a title="开放主题" href="state/p/3/2208/7052743.html" target="_blank">⊙</a></td>
+<td class="tal" id="td_7052743">[08-11]
 
-<a href="state/p/3/2207/6778933.html" target="_blank" id="a_ajax_6778933" class="subject">核基地▲最新の国产合集☆7部㊣♀ [07.20]</a>&nbsp; <img src="images/wind/file/zip.gif" border=0 align="absmiddle"></td>
+<a href="state/p/3/2208/7052743.html" target="_blank" id="a_ajax_7052743" class="subject">核基地▲最新の国产合集☆114部㊣♀ [08.11]</a>&nbsp; <img src="images/wind/file/zip.gif" border=0 align="absmiddle"></td>
 <td class="tal y-style"><a href="u.php?action=show&uid=1070" class="bl">avp2p</a>
-<div class="f10 gray">2022-07-20</div></td>
+<div class="f10 gray">2022-08-11</div></td>
 <td class="tal y-style f10 gray"><span class="s3">0</span></td>
 <td class="tal y-style">
-<a href="read.php?tid-6778933-page-e-fpage-1.html#a">avp2p</a><br />
-<span class="f10 gray">2022-07-20 11:51</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6778903.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6778903">[07-20]
-
-<a href="state/p/3/2207/6778903.html" target="_blank" id="a_ajax_6778903" class="subject">★●經典の店長推薦㊣↗?無碼合集↘?♀ [07.19]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6778903-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 11:45</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6778901.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6778901">[07-20]
-
-<a href="state/p/3/2207/6778901.html" target="_blank" id="a_ajax_6778901" class="subject">★●經典の歐美無碼㊣↗?精彩合集↘?♀ [07.19]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6778901-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 11:45</span>
-</td>
-</tr><tr align="center" class="tr3 t_one">
-<td><a title="开放主题" href="state/p/3/2207/6778897.html" target="_blank">⊙</a></td>
-<td class="tal" id="td_6778897">[07-20]
-
-<a href="state/p/3/2207/6778897.html" target="_blank" id="a_ajax_6778897" class="subject">▲老含及▲中文字幕合集[07.20]</a>&nbsp; </td>
-<td class="tal y-style"><a href="u.php?action=show&uid=10" class="bl">在线专员</a>
-<div class="f10 gray">2022-07-20</div></td>
-<td class="tal y-style f10 gray"><span class="s3">0</span></td>
-<td class="tal y-style">
-<a href="read.php?tid-6778897-page-e-fpage-1.html#a">在线专员</a><br />
-<span class="f10 gray">2022-07-20 11:45</span>
+<a href="read.php?tid-7052743-page-e-fpage-1.html#a">avp2p</a><br />
+<span class="f10 gray">2022-08-11 11:26</span>
 </td>
 </tr>
 
@@ -1198,9 +1199,10 @@ return hidden;
 &nbsp;&nbsp;<a href="/htm/a4.htm" target="_blank"><font size="4" color="green"><b>皇冠体育</b></font></a>
 &nbsp;&nbsp;<a href="/htm/a8.htm" target="_blank"><font size="4" color="green"><b>凤凰娱乐</b></font></a>
 &nbsp;&nbsp;<a href="/htm/b7.htm" target="_blank"><font size="4" color="red"><b>同城招嫖</b></font></a>
-&nbsp;&nbsp;<a href="/htm/b1.htm" target="_blank"><font size="4" color="blue"><b>真人娱乐</b></font></a>
+&nbsp;&nbsp;<a href="/htm/b1.htm" target="_blank"><font size="4" color="blue"><b>威尼斯人</b></font></a>
 &nbsp;&nbsp;<a href="/htm/b10.htm" target="_blank"><font size="4" color="red"><b>聚合直播</b></font></a>
 &nbsp;&nbsp;<a href="/htm/sg.htm" target="_blank"><font size="4" color="blue"><b>现金棋牌</b></font></a>
+&nbsp;&nbsp;<a href="/htm/bba.htm" target="_blank"><font size="4" color="red"><b>现金赌场</b></font></a>
 <br>
 <a href="/htm/a5.htm" target="_blank"><font size="4" color="red"><b>皇冠赌场</b></font></a>
 &nbsp;&nbsp;<a href="/htm/a6.htm" target="_blank"><font size="4" color="green"><b>必赢棋牌</b></font></a>
@@ -1210,8 +1212,8 @@ return hidden;
 &nbsp;&nbsp;<a href="/htm/b2.htm" target="_blank"><font size="4" color="red"><b>银河赌场</b></font></a>
 &nbsp;&nbsp;<a href="/htm/b6.htm" target="_blank"><font size="4" color="blue"><b>小姐上门</b></font></a>
 &nbsp;&nbsp;<a href="/htm/b3.htm" target="_blank"><font size="4" color="green"><b>同城约炮</b></font></a>
-&nbsp;&nbsp;<a href="/htm/c1.htm" target="_blank"><font size="4" color="blue"><b>必博体育</b></font></a>
-&nbsp;&nbsp;<a href="/htm/vk.htm" target="_blank"><font size="4" color="red"><b>同城做爱</b></font></a>
+&nbsp;&nbsp;<a href="/htm/vk.htm" target="_blank"><font size="4" color="red"><b>同城炮友</b></font></a>
+&nbsp;&nbsp;<a href="/htm/lj.htm" target="_blank"><font size="4" color="blue"><b>下海兼职</b></font></a>
 </td><td><span class="m-hidden"><font color="">2048</font></span></td> <td class="tal y-style f10 gray"><span class="s3">15</span></td>
 </tr>
 </tr>  <tr><td colspan="6" class="f_one" style="height:8px"></td></tr>
@@ -1244,7 +1246,7 @@ return hidden;
 </td>
 </tr>
 </table></div>
-<div class="t3"><span class="fr"><a href="post.php?fid=3" title="发表新帖"><img src="images/wind/post.png" id="td_post1" /></a></span><span class="fl"><div class="pages"><a href="thread.php?fid-3-page-1.html" class="b">&laquo;</a><b>1</b><a href="thread.php?fid-3-page-2.html">2</a><a href="thread.php?fid-3-page-3.html">3</a><a href="thread.php?fid-3-page-4.html">4</a><a href="thread.php?fid-3-page-5.html">5</a><a href="thread.php?fid-3-page-576.html" class="b">&raquo;</a><span class="pagesone"><span>Pages: 1/576</span><input type="text" size="3" onkeydown="javascript: if(event.keyCode==13){ location='thread.php?fid=3&page='+this.value+'';return false;}"><button onclick="javascript:  location='thread.php?fid=3&page='+this.previousSibling.value+'';return false;">Go</button></span></div></span>
+<div class="t3"><span class="fr"><a href="post.php?fid=3" title="发表新帖"><img src="images/wind/post.png" id="td_post1" /></a></span><span class="fl"><div class="pages"><a href="thread.php?fid-3-page-1.html" class="b">&laquo;</a><b>1</b><a href="thread.php?fid-3-page-2.html">2</a><a href="thread.php?fid-3-page-3.html">3</a><a href="thread.php?fid-3-page-4.html">4</a><a href="thread.php?fid-3-page-5.html">5</a><a href="thread.php?fid-3-page-597.html" class="b">&raquo;</a><span class="pagesone"><span>Pages: 1/597</span><input type="text" size="3" onkeydown="javascript: if(event.keyCode==13){ location='thread.php?fid=3&page='+this.value+'';return false;}"><button onclick="javascript:  location='thread.php?fid=3&page='+this.previousSibling.value+'';return false;">Go</button></span></div></span>
 <div class="c"></div>
 </div>
 </div><div class="c"></div><script language="JavaScript">
@@ -1384,11 +1386,12 @@ light_text.innerHTML = '开灯';
 <div class="bottom tac">
 
 <a href="/htm/b10.htm" target="_blank"><font size="4" color="red"><b>聚合直播</b></font></a>
-<a href="/htm/b9.htm" target="_blank"><font size="4" color="blue"><b>威尼斯人</b></font></a>&nbsp;<a href="/htm/a1.htm" target="_blank"><font size="4" color="red"><b>亚博赌场</b></font></a>&nbsp;<a href="/htm/a2.htm" target="_blank"><font size="4" color="blue"><b>葡京赌场</b></font></a>&nbsp;<a href="/htm/a4.htm" target="_blank"><font size="4" color="red"><b>皇冠体育</b></font></a>&nbsp;<a href="/htm/a5.htm" target="_blank"><font size="4" color="blue"><b>皇冠赌场</b></font></a>&nbsp;<a href="/htm/b4.htm" target="_blank"><font size="4" color="green"><b>开元棋牌</b></font></a>&nbsp;<a href="/htm/b7.htm" target="_blank"><font size="4" color="blue"><b>兼职少妇</b></font></a>&nbsp;<a href="/htm/sg.htm" target="_blank"><font size="4" color="green"><b>现金棋牌</b></font></a>
+<a href="/htm/b9.htm" target="_blank"><font size="4" color="blue"><b>威尼斯人</b></font></a>&nbsp;<a href="/htm/a1.htm" target="_blank"><font size="4" color="red"><b>亚博赌场</b></font></a>&nbsp;<a href="/htm/a2.htm" target="_blank"><font size="4" color="blue"><b>葡京赌场</b></font></a>&nbsp;<a href="/htm/a4.htm" target="_blank"><font size="4" color="red"><b>皇冠体育</b></font></a>&nbsp;<a href="/htm/a5.htm" target="_blank"><font size="4" color="blue"><b>皇冠赌场</b></font></a>&nbsp;<a href="/htm/b4.htm" target="_blank"><font size="4" color="green"><b>开元棋牌</b></font></a>&nbsp;<a href="/htm/b7.htm" target="_blank"><font size="4" color="blue"><b>兼职少妇</b></font></a>&nbsp;<a href="/htm/sg.htm" target="_blank"><font size="4" color="green"><b>现金棋牌</b></font></a>&nbsp;<a href="/htm/bba.htm" target="_blank"><font size="4" color="red"><b>现金赌场</b></font></a>
 <br>
-&nbsp;<a href="/htm/b1.htm" target="_blank"><font size="4" color="red"><b>真人娱乐</b></font></a>
+&nbsp;<a href="/htm/lj.htm" target="_blank"><font size="4" color="blue"><b>下海兼职</b></font></a>
+&nbsp;<a href="/htm/b1.htm" target="_blank"><font size="4" color="red"><b>威尼斯人</b></font></a>
 <a href="/htm/b2.htm" target="_blank"><font size="4" color="green"><b>银河赌场</b></font></a>&nbsp;<a href="/htm/a7.htm" target="_blank"><font size="4" color="blue"><b>王者棋牌</b></font></a>&nbsp;<a href="/htm/a6.htm" target="_blank"><font size="4" color="green"><b>必赢棋牌</b></font></a>&nbsp;<a href="/htm/b5.htm" target="_blank"><font size="4" color="red"><b>9 1大神</b></font></a>&nbsp;<a href="/htm/b6.htm" target="_blank"><font size="4" color="blue"><b>约炮大群</b></font></a>&nbsp;<a href="/htm/a8.htm" target="_blank"><font size="4" color="green"><b>凤凰娱乐</b></font></a>
-&nbsp;<a href="/htm/b3.htm" target="_blank"><font size="4" color="red"><b>同城约炮</b></font></a>&nbsp;<a href="/htm/c1.htm" target="_blank"><font size="4" color="blue"><b>必博体育</b></font></a>&nbsp;<a href="/htm/vk.htm" target="_blank"><font size="4" color="red"><b>同城做爱</b></font></a>
+&nbsp;<a href="/htm/b3.htm" target="_blank"><font size="4" color="red"><b>同城约炮</b></font></a>&nbsp;<a href="/htm/vk.htm" target="_blank"><font size="4" color="bled"><b>同城炮友 </b></font></a>
 </div>
 <div class="bottom tac"><div class="y-bg4 black"> <ul> <li><a href="index.php?skinco-Touch.html">手機版</a> | <a href="https://apk.elsbapk.org/2048.apk">APP下載</a> | <a href="/2048/2048.rar">地址发布器</a> | <a href="faq.php?hid-0.html.html#faq33">2257</a> | <a href="faq.php?hid-0.html.html#faq34">DMCA</a></li>
 </ul> </div></div>
