@@ -79,20 +79,32 @@ class download():
 
 
     def getHtmlUrl(self,content=''):
-        string = re.findall('<a href="(state.*?)"',str(content))
+        #<a href="state/p/3/2209/7457042.html" target="_blank" id="a_ajax_7457042" class="subject">▲小隻馬▲新片首发▲最強有碼合集♂[0914]</a>&nbsp; </td>
+        string = re.findall('<a href="(state.*?)".*?>(.*?)<',str(content))
         #string = ['state/p/3/2207/6713225.html']
-        for i in string:
-            url = i.strip()
-            url = self.preurl + url
-            ic = self.getUrlContent(url);
-            print(url)
-            self.getDownUrl(ic);
+
+
+        with open(self.logUrl + "folder","w+") as f:
+            for i in string:
+                st = i[0] + "|" + i[1] + "\r\n"
+                f.write(st)
+
+        i = input("请查看./log/folder 是否开始下一步")
+        with open(self.logUrl + "folder","r") as f:
+            lists = f.readlines()
+            for i in lists:
+                i = i.split("|")
+
+                url = i[0].strip()
+                url = self.preurl + url
+                ic = self.getUrlContent(url);
+                self.getDownUrl(ic,i[1]);
 
 
 
 
 # 得到下载页面
-    def getDownUrl(self,content):
+    def getDownUrl(self,content,title):
         string = re.findall('(https://down\.dataaps\.com\/list.php\?name=\w{1,32})',content)
         for i in string:
             content = self.getUrlContent(i)
@@ -247,7 +259,6 @@ class download():
                 name = name.replace(j,filters[j])
         print(name)
         return name
-
 
 
 
