@@ -10,22 +10,26 @@ from filters import getFilters
 
 
 class download():
+    timeout = 20
+    #preurl = "https://qiongyouzu.com/2048/"
+    #preurl = "https://nongrao.com/2048/"
     preurl = "https://bbs.huieiv.com/2048/"
-    dataUrl = "../Data/"
-    logUrl = "../log/"
+    cacheUrl = "../data/cache/"
+    logUrl = "../data/log/"
     urlFile = logUrl + "url"
     dataFile = logUrl + "data.js"
 
     magnetArr = []
     headers={
-            'Host':'bbs.huieiv.com',
+            'Host':'nongrao.com',
+            #'Host':'bbs.huieiv.com',
             #'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0',
             'Accept':'*/*',
             'Accept-Language': 'zh-CN,zh;q=0.9',
             'Accept-Encoding':'gzip,deflate,br',
             'Alt-Used':'bbs.huieiv.com',
             'Connection':'keep-alive',
-            'Referer':'https://bbs.huieiv.com/2048/thread.php?fid-3-page-1.html',
+            'Referer':'https://nongrao.com/2048/thread.php?fid-3-page-1.html',
             'Cookie':'zh_choose=n; a22e7_lastvisit=317%091657608588%09%2F2048%2Fthread.php%3Ffid-3-page-1.html; a22e7_lastpos=F3; a22e7_ol_offset=241627; a22e7_threadlog=%2C3%2C',
             'Sec-Fetch-Dest':'script',
             'Sec-Fetch-Mode':'no-cors',
@@ -34,9 +38,7 @@ class download():
             #"Content-Type" : "text/html;charset=UTF-8",
             'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
 
-            "Referer":"https://cb.wpio.xyz/thread0806.php",
             'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.34 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
-            'Referer': 'https://www.zhaopin.com/',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
             'Accept-Encoding': 'gizp,defale',
             'Accept-Language': 'zh-CN,zh;q=0.9'
@@ -50,7 +52,7 @@ class download():
         return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
 
     def getLists(self):
-        with open(self.urlFile,"w") as f:
+        with open(self.urlFile,"w+") as f:
             f.write("")
 
         for i in range(1,2):
@@ -58,19 +60,28 @@ class download():
             fileName = str(date.today())+"-"+str(i)
             if not self.exist(fileName):
                 content = self.getUrlContent(url)
-                self.writeFile(fileName,content)
+                if content is not False:
+                    self.writeFile(fileName,content)
+                else:
+                    self.delData()
+                    exit("无法连接服务器")
             else:
                 content = self.readFile(fileName)
             print("getHtmlUrl")
             self.getHtmlUrl(content)
 
+    def delData(self):
+        lists = os.listdir(self.cacheUrl)
+        for i in lists:
+            target = self.cacheUrl + i
+            os.remove(target)
 
 
     def getUrlContent(self,url):
         rs = False
         try:
             req = request.Request(url,headers=self.headers)
-            recv = request.urlopen(req,timeout=10)
+            recv = request.urlopen(req,timeout=self.timeout)
             rs = recv.read().decode()
         except Exception:
             pass
@@ -89,7 +100,7 @@ class download():
                 st = i[0] + "|" + i[1] + "\r\n"
                 f.write(st)
 
-        i = input("请查看./log/folder 是否开始下一步")
+        i = input("请查看" + self.logUrl +"/folder 是否开始下一步")
         with open(self.logUrl + "folder","r") as f:
             lists = f.readlines()
             for i in lists:
@@ -105,6 +116,8 @@ class download():
 
 # 得到下载页面
     def getDownUrl(self,content,title):
+        if content == False:
+            return False
         string = re.findall('(https://down\.dataaps\.com\/list.php\?name=\w{1,32})',content)
         for i in string:
             content = self.getUrlContent(i)
@@ -126,7 +139,7 @@ class download():
 
     def download(self,url):
         req = request.Request(url,headers=self.headers)
-        recv = request.urlopen(req,timeout=10)
+        recv = request.urlopen(req,timeout=self.timeout)
         return recv
 
 
@@ -137,7 +150,7 @@ class download():
 
         filename = i[1].replace("&nbsp;","_")
         req = request.Request(url,headers=self.headers)
-        recv = request.urlopen(req,timeout=10)
+        recv = request.urlopen(req,timeout=self.timeout)
         '''
         with open("./url","a+") as d:
             d.write(i[1]+"|"+i[0]+"\r\n")
@@ -197,7 +210,7 @@ class download():
             f.write(rs)
 
     def readFile(self,name):
-        url = self.dataUrl + name
+        url = self.cacheUrl + name
         rs = os.path.exists(url)
         if rs == True:
             with open(url,"r") as f:
@@ -220,12 +233,12 @@ class download():
         
 
     def writeFile(self,name,content):
-        url = self.dataUrl + name
+        url = self.cacheUrl + name
         with open(url,"w") as f:
             return f.write(content)
     
     def exist(self,name):
-        url = self.dataUrl + name
+        url = self.cacheUrl + name
         return os.path.exists(url)
 
     def toFolder(self):
