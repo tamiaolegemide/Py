@@ -14,6 +14,7 @@ class download():
     #preurl = "https://qiongyouzu.com/2048/"
     #preurl = "https://nongrao.com/2048/"
     preurl = "https://bbs.huieiv.com/2048/"
+    preurl = "https://maojinwu.com/2048/"
     cacheUrl = "../data/cache/"
     logUrl = "../data/log/"
     urlFile = logUrl + "url"
@@ -21,7 +22,6 @@ class download():
 
     magnetArr = []
     headers={
-            'Host':'nongrao.com',
             #'Host':'bbs.huieiv.com',
             #'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0',
             'Accept':'*/*',
@@ -100,7 +100,8 @@ class download():
                 st = i[0] + "|" + i[1] + "\r\n"
                 f.write(st)
 
-        i = input("请查看" + self.logUrl +"/folder 是否开始下一步")
+        i = input("请查看要下载的目录")
+        os.system("vim ../data/log/folder")
         with open(self.logUrl + "folder","r") as f:
             lists = f.readlines()
             for i in lists:
@@ -272,6 +273,8 @@ class download():
                 name = name.replace(j,filters[j])
         print(name)
         return name
+
+
 
 
 

@@ -4,7 +4,7 @@
 	<!--<script src="http://js.mtf.com:8081/jquery/dist/jquery.js"></script>-->
 	<script src="./application/js/jquery.js"></script>
 	<script src="./application/js/vue3.js"></script>
-	<script src="./application/log/data.js"></script>
+	<script src="./application/data/log/data.js"></script>
 
 
 	<body>
@@ -20,7 +20,7 @@
 		<table id="page">
 			<tr v-for="i in data">
 				<td>
-					<a target="_blank" href="" id="fuck">..............</a>
+					<a  href="" id="fuck">..............</a>
 				</td>
 			</tr>
 		</table>
@@ -36,7 +36,7 @@ function clock(){
 	}
 }
 
-//setInterval("clock()",3000);
+setInterval("clock()",500);
 
 
 const { createApp } = Vue
