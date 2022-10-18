@@ -11,10 +11,10 @@ from filters import getFilters
 
 class download():
     timeout = 20
-    #preurl = "https://qiongyouzu.com/2048/"
+    web = "bbs.huieiv.com"
+    preurl = "https://" + web
     #preurl = "https://nongrao.com/2048/"
-    preurl = "https://bbs.huieiv.com/2048/"
-    preurl = "https://maojinwu.com/2048/"
+#    preurl = "https://maojinwu.com/2048/"
     cacheUrl = "../data/cache/"
     logUrl = "../data/log/"
     urlFile = logUrl + "url"
@@ -22,22 +22,19 @@ class download():
 
     magnetArr = []
     headers={
-            #'Host':'bbs.huieiv.com',
+            'Host': web,
+            'Referer':'https://nongrao.com/2048/thread.php?fid-3-page-1.html',
+            'Cookie':'zh_choose=n; a22e7_lastvisit=317%091657608588%09%2F2048%2Fthread.php%3Ffid-3-page-1.html; a22e7_lastpos=F3; a22e7_ol_offset=241627; a22e7_threadlog=%2C3%2C',
             #'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0',
             'Accept':'*/*',
             'Accept-Language': 'zh-CN,zh;q=0.9',
             'Accept-Encoding':'gzip,deflate,br',
             'Alt-Used':'bbs.huieiv.com',
             'Connection':'keep-alive',
-            'Referer':'https://nongrao.com/2048/thread.php?fid-3-page-1.html',
-            'Cookie':'zh_choose=n; a22e7_lastvisit=317%091657608588%09%2F2048%2Fthread.php%3Ffid-3-page-1.html; a22e7_lastpos=F3; a22e7_ol_offset=241627; a22e7_threadlog=%2C3%2C',
             'Sec-Fetch-Dest':'script',
             'Sec-Fetch-Mode':'no-cors',
             'Sec-Fetch-Site':'same-origin',
-
-            #"Content-Type" : "text/html;charset=UTF-8",
             'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
-
             'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.34 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
             'Accept-Encoding': 'gizp,defale',
@@ -57,6 +54,7 @@ class download():
 
         for i in range(1,2):
             url = self.getPageUrl(i);
+            print(url)
             fileName = str(date.today())+"-"+str(i)
             if not self.exist(fileName):
                 content = self.getUrlContent(url)
