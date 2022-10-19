@@ -10,20 +10,26 @@ from filters import getFilters
 
 
 class download():
-    timeout = 20
-    web = "bbs.huieiv.com"
-    preurl = "https://" + web
+    timeout = 10
+    listId = 0
+    webs = [
+            "healthwol.com",
+            'woniangzi.com',
+            ]
+    web = webs[listId]
+    preurl = "https://" + web + "/"
     #preurl = "https://nongrao.com/2048/"
 #    preurl = "https://maojinwu.com/2048/"
     cacheUrl = "../data/cache/"
     logUrl = "../data/log/"
     urlFile = logUrl + "url"
     dataFile = logUrl + "data.js"
+    repeat = 0
 
     magnetArr = []
     headers={
             'Host': web,
-            'Referer':'https://nongrao.com/2048/thread.php?fid-3-page-1.html',
+            'Referer':'https://'+ web +'/2048/thread.php?fid-3-page-1.html',
             'Cookie':'zh_choose=n; a22e7_lastvisit=317%091657608588%09%2F2048%2Fthread.php%3Ffid-3-page-1.html; a22e7_lastpos=F3; a22e7_ol_offset=241627; a22e7_threadlog=%2C3%2C',
             #'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0',
             'Accept':'*/*',
@@ -45,6 +51,9 @@ class download():
     def __init__(self):
         pass
 
+    def setLId(self,lid):
+        self.listId = lid
+
     def getPageUrl(self,i):
         return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
 
@@ -53,20 +62,26 @@ class download():
             f.write("")
 
         for i in range(1,2):
-            url = self.getPageUrl(i);
-            print(url)
-            fileName = str(date.today())+"-"+str(i)
-            if not self.exist(fileName):
-                content = self.getUrlContent(url)
-                if content is not False:
-                    self.writeFile(fileName,content)
-                else:
-                    self.delData()
-                    exit("无法连接服务器")
+            self.getOnePage(i)
+
+    def getOnePage(self,pageNum):
+        self.repeat += 1 
+        print("第%d次尝试"%(self.repeat))
+
+        url = self.getPageUrl(pageNum)
+        fileName = str(date.today())+"-"+str(pageNum)
+        if not self.exist(fileName):
+            content = self.getUrlContent(url)
+            if content is not False:
+                self.writeFile(fileName,content)
             else:
-                content = self.readFile(fileName)
-            print("getHtmlUrl")
-            self.getHtmlUrl(content)
+                self.delData()
+                self.getOnePage(pageNum)
+
+        else:
+            content = self.readFile(fileName)
+        return self.getHtmlUrl(content)
+
 
     def delData(self):
         lists = os.listdir(self.cacheUrl)
@@ -83,7 +98,6 @@ class download():
             rs = recv.read().decode()
         except Exception:
             pass
-
         return rs 
 
 
@@ -229,13 +243,13 @@ class download():
             for i in arr:
                 f.write(i)
 
-        
+
 
     def writeFile(self,name,content):
         url = self.cacheUrl + name
         with open(url,"w") as f:
             return f.write(content)
-    
+
     def exist(self,name):
         url = self.cacheUrl + name
         return os.path.exists(url)
@@ -277,10 +291,10 @@ class download():
 
 
 obj = download()
-print("getLists")
+print("得到列表")
 obj.getLists()
-print("checkRepeat")
+print("去重")
 obj.checkRepeat()
-print("genDataJs")
+print("生成json文件")
 obj.genDataJs()
 #obj.toFolder()
