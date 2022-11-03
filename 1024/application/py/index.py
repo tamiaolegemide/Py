@@ -13,11 +13,12 @@ class download():
     timeout = 10
     listId = 0
     webs = [
+            "woniangzi.com",
             "healthwol.com",
             'woniangzi.com',
             ]
     web = webs[listId]
-    preurl = "https://" + web + "/"
+    preurl = "https://" + web + "/2048/"
     #preurl = "https://nongrao.com/2048/"
 #    preurl = "https://maojinwu.com/2048/"
     cacheUrl = "../data/cache/"
@@ -54,21 +55,24 @@ class download():
     def setLId(self,lid):
         self.listId = lid
 
-    def getPageUrl(self,i):
-        return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
+    def getPageUrl(self,i=False):
+        if i is False:
+            return self.preurl+ "thread.php?fid-3.html"
+        else:
+            return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
 
     def getLists(self):
         with open(self.urlFile,"w+") as f:
             f.write("")
 
-        for i in range(1,2):
-            self.getOnePage(i)
+        for i in range(10,12):
+            url = self.getPageUrl(i)
+            self.getOnePage(i,url)
 
-    def getOnePage(self,pageNum):
+    def getOnePage(self,pageNum,url):
         self.repeat += 1 
         print("第%d次尝试"%(self.repeat))
 
-        url = self.getPageUrl(pageNum)
         fileName = str(date.today())+"-"+str(pageNum)
         if not self.exist(fileName):
             content = self.getUrlContent(url)
@@ -76,7 +80,7 @@ class download():
                 self.writeFile(fileName,content)
             else:
                 self.delData()
-                self.getOnePage(pageNum)
+                self.getOnePage(pageNum,url)
 
         else:
             content = self.readFile(fileName)
