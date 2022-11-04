@@ -1,6 +1,6 @@
 #!/usr/bin/python3.8
 # -*- coding: utf-8 -*-
-import re,json,os,asyncio,time,datetime,threading
+import re,json,os,asyncio,time,datetime,threading,html
 from datetime import date
 from urllib import request
 import shutil
@@ -10,7 +10,9 @@ from filters import getFilters
 
 
 class download():
-    timeout = 10
+    start = 11 #开始页
+    end = 20 #结束页
+    timeout = 5
     listId = 0
     webs = [
             "woniangzi.com",
@@ -25,7 +27,6 @@ class download():
     logUrl = "../data/log/"
     urlFile = logUrl + "url"
     dataFile = logUrl + "data.js"
-    repeat = 0
 
     magnetArr = []
     headers={
@@ -52,46 +53,38 @@ class download():
     def __init__(self):
         pass
 
-    def setLId(self,lid):
-        self.listId = lid
 
-    def getPageUrl(self,i=False):
+    def pageUrl(self,i=False):
         if i is False:
             return self.preurl+ "thread.php?fid-3.html"
         else:
             return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
 
+    def test(self):
+        #content = self.getUrlContent("https://woniangzi.com/2048/state/p/3/2210/7975398.html")
+        with open("test","r") as f:
+            content = f.read()
+        self.getDownUrl(content,'123')
+
+
+
     def getLists(self):
         with open(self.urlFile,"w+") as f:
             f.write("")
+        for i in range(self.start,self.end):
+            self.getOnePage(i)
+        self.downLoad()
 
-        for i in range(10,12):
-            url = self.getPageUrl(i)
-            self.getOnePage(i,url)
-
-    def getOnePage(self,pageNum,url):
-        self.repeat += 1 
-        print("第%d次尝试"%(self.repeat))
-
-        fileName = str(date.today())+"-"+str(pageNum)
-        if not self.exist(fileName):
-            content = self.getUrlContent(url)
-            if content is not False:
-                self.writeFile(fileName,content)
-            else:
-                self.delData()
-                self.getOnePage(pageNum,url)
-
-        else:
-            content = self.readFile(fileName)
-        return self.getHtmlUrl(content)
+    def getOnePage(self,pageNum,repeat=0):
+        url = self.pageUrl(pageNum)
+        repeat+=1 
+        print("第%d页,第%d次尝试"%(pageNum,repeat))
+        content = self.getUrlContent(url)
+        if content is False:
+            self.getOnePage(pageNum,repeat)
+        return self.getDownLink(content)
 
 
-    def delData(self):
-        lists = os.listdir(self.cacheUrl)
-        for i in lists:
-            target = self.cacheUrl + i
-            os.remove(target)
 
 
     def getUrlContent(self,url):
@@ -105,17 +98,16 @@ class download():
         return rs 
 
 
-    def getHtmlUrl(self,content=''):
+    def getDownLink(self,content=''):
         #<a href="state/p/3/2209/7457042.html" target="_blank" id="a_ajax_7457042" class="subject">▲小隻馬▲新片首发▲最強有碼合集♂[0914]</a>&nbsp; </td>
         string = re.findall('<a href="(state.*?)".*?>(.*?)<',str(content))
         #string = ['state/p/3/2207/6713225.html']
-
-
-        with open(self.logUrl + "folder","w+") as f:
+        with open(self.logUrl + "folder","a+") as f:
             for i in string:
                 st = i[0] + "|" + i[1] + "\r\n"
                 f.write(st)
 
+    def downLoad(self):
         i = input("请查看要下载的目录")
         os.system("vim ../data/log/folder")
         with open(self.logUrl + "folder","r") as f:
@@ -135,6 +127,7 @@ class download():
     def getDownUrl(self,content,title):
         if content == False:
             return False
+        content = html.unescape(content)
         string = re.findall('(https://down\.dataaps\.com\/list.php\?name=\w{1,32})',content)
         for i in string:
             content = self.getUrlContent(i)
@@ -287,7 +280,6 @@ class download():
         for j in filters:
             if name.find(j) is not False:
                 name = name.replace(j,filters[j])
-        print(name)
         return name
 
 
