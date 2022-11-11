@@ -1,4 +1,4 @@
-#!/usr/bin/python3.8
+#!/usr/bin/python3.10
 # -*- coding: utf-8 -*-
 import re,json,os,asyncio,time,datetime,threading
 from datetime import date
