@@ -1,6 +1,6 @@
 #!/usr/bin/python3.10
 # -*- coding: utf-8 -*-
-import re,json,os,asyncio,time,datetime,threading
+import re,json,os,asyncio,time,datetime,threading,html
 from datetime import date
 from urllib import request
 import shutil
@@ -10,11 +10,19 @@ from filters import getFilters
 
 
 class download():
-    timeout = 20
-    #preurl = "https://qiongyouzu.com/2048/"
+    start = 11 #开始页
+    end = 20 #结束页
+    timeout = 5
+    listId = 0
+    webs = [
+            "woniangzi.com",
+            "healthwol.com",
+            'woniangzi.com',
+            ]
+    web = webs[listId]
+    preurl = "https://" + web + "/2048/"
     #preurl = "https://nongrao.com/2048/"
-    preurl = "https://bbs.huieiv.com/2048/"
-    preurl = "https://maojinwu.com/2048/"
+#    preurl = "https://maojinwu.com/2048/"
     cacheUrl = "../data/cache/"
     logUrl = "../data/log/"
     urlFile = logUrl + "url"
@@ -22,22 +30,19 @@ class download():
 
     magnetArr = []
     headers={
-            #'Host':'bbs.huieiv.com',
+            'Host': web,
+            'Referer':'https://'+ web +'/2048/thread.php?fid-3-page-1.html',
+            'Cookie':'zh_choose=n; a22e7_lastvisit=317%091657608588%09%2F2048%2Fthread.php%3Ffid-3-page-1.html; a22e7_lastpos=F3; a22e7_ol_offset=241627; a22e7_threadlog=%2C3%2C',
             #'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0',
             'Accept':'*/*',
             'Accept-Language': 'zh-CN,zh;q=0.9',
             'Accept-Encoding':'gzip,deflate,br',
             'Alt-Used':'bbs.huieiv.com',
             'Connection':'keep-alive',
-            'Referer':'https://nongrao.com/2048/thread.php?fid-3-page-1.html',
-            'Cookie':'zh_choose=n; a22e7_lastvisit=317%091657608588%09%2F2048%2Fthread.php%3Ffid-3-page-1.html; a22e7_lastpos=F3; a22e7_ol_offset=241627; a22e7_threadlog=%2C3%2C',
             'Sec-Fetch-Dest':'script',
             'Sec-Fetch-Mode':'no-cors',
             'Sec-Fetch-Site':'same-origin',
-
-            #"Content-Type" : "text/html;charset=UTF-8",
             'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
-
             'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.34 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
             'Accept-Encoding': 'gizp,defale',
@@ -48,33 +53,38 @@ class download():
     def __init__(self):
         pass
 
-    def getPageUrl(self,i):
-        return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
+
+    def pageUrl(self,i=False):
+        if i is False:
+            return self.preurl+ "thread.php?fid-3.html"
+        else:
+            return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
+
+    def test(self):
+        #content = self.getUrlContent("https://woniangzi.com/2048/state/p/3/2210/7975398.html")
+        with open("test","r") as f:
+            content = f.read()
+        self.getDownUrl(content,'123')
+
+
 
     def getLists(self):
         with open(self.urlFile,"w+") as f:
             f.write("")
+        for i in range(self.start,self.end):
+            self.getOnePage(i)
+        self.downLoad()
 
-        for i in range(1,2):
-            url = self.getPageUrl(i);
-            fileName = str(date.today())+"-"+str(i)
-            if not self.exist(fileName):
-                content = self.getUrlContent(url)
-                if content is not False:
-                    self.writeFile(fileName,content)
-                else:
-                    self.delData()
-                    exit("无法连接服务器")
-            else:
-                content = self.readFile(fileName)
-            print("getHtmlUrl")
-            self.getHtmlUrl(content)
+    def getOnePage(self,pageNum,repeat=0):
+        url = self.pageUrl(pageNum)
+        repeat+=1 
+        print("第%d页,第%d次尝试"%(pageNum,repeat))
+        content = self.getUrlContent(url)
+        if content is False:
+            self.getOnePage(pageNum,repeat)
+        return self.getDownLink(content)
 
-    def delData(self):
-        lists = os.listdir(self.cacheUrl)
-        for i in lists:
-            target = self.cacheUrl + i
-            os.remove(target)
+
 
 
     def getUrlContent(self,url):
@@ -85,21 +95,19 @@ class download():
             rs = recv.read().decode()
         except Exception:
             pass
-
         return rs 
 
 
-    def getHtmlUrl(self,content=''):
+    def getDownLink(self,content=''):
         #<a href="state/p/3/2209/7457042.html" target="_blank" id="a_ajax_7457042" class="subject">▲小隻馬▲新片首发▲最強有碼合集♂[0914]</a>&nbsp; </td>
         string = re.findall('<a href="(state.*?)".*?>(.*?)<',str(content))
         #string = ['state/p/3/2207/6713225.html']
-
-
-        with open(self.logUrl + "folder","w+") as f:
+        with open(self.logUrl + "folder","a+") as f:
             for i in string:
                 st = i[0] + "|" + i[1] + "\r\n"
                 f.write(st)
 
+    def downLoad(self):
         i = input("请查看要下载的目录")
         os.system("vim ../data/log/folder")
         with open(self.logUrl + "folder","r") as f:
@@ -119,6 +127,7 @@ class download():
     def getDownUrl(self,content,title):
         if content == False:
             return False
+        content = html.unescape(content)
         string = re.findall('(https://down\.dataaps\.com\/list.php\?name=\w{1,32})',content)
         for i in string:
             content = self.getUrlContent(i)
@@ -231,13 +240,13 @@ class download():
             for i in arr:
                 f.write(i)
 
-        
+
 
     def writeFile(self,name,content):
         url = self.cacheUrl + name
         with open(url,"w") as f:
             return f.write(content)
-    
+
     def exist(self,name):
         url = self.cacheUrl + name
         return os.path.exists(url)
@@ -271,7 +280,6 @@ class download():
         for j in filters:
             if name.find(j) is not False:
                 name = name.replace(j,filters[j])
-        print(name)
         return name
 
 
@@ -279,10 +287,10 @@ class download():
 
 
 obj = download()
-print("getLists")
+print("得到列表")
 obj.getLists()
-print("checkRepeat")
+print("去重")
 obj.checkRepeat()
-print("genDataJs")
+print("生成json文件")
 obj.genDataJs()
 #obj.toFolder()
