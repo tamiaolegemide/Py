@@ -10,10 +10,10 @@ from filters import getFilters
 
 
 class download():
-    start = 11 #开始页
-    end = 20 #结束页
+    start = 1 #开始页
+    end = 5 #结束页
     timeout = 5
-    listId = 0
+    listId = 0 #the number of webs
     webs = [
             "woniangzi.com",
             "healthwol.com",
@@ -139,6 +139,9 @@ class download():
         if content == False:
             return False 
         string = re.findall('href="(magnet:\?xt=urn:btih:.*)"',content);
+        if string == []:
+            return False
+
         url = string[0]
         with open(self.urlFile,"a+") as f:
             f.write(url + "\n")
@@ -281,8 +284,6 @@ class download():
             if name.find(j) is not False:
                 name = name.replace(j,filters[j])
         return name
-
-
 
 
 
