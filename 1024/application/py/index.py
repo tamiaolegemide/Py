@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import re,json,os,asyncio,time,datetime,threading,html
 from datetime import date
+from downClass import downClass
 from urllib import request
 import shutil
 from filters import getFilters
@@ -54,17 +55,13 @@ class download():
         pass
 
 
+
     def pageUrl(self,i=False):
         if i is False:
             return self.preurl+ "thread.php?fid-3.html"
         else:
             return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
 
-    def test(self):
-        #content = self.getUrlContent("https://woniangzi.com/2048/state/p/3/2210/7975398.html")
-        with open("test","r") as f:
-            content = f.read()
-        self.getDownUrl(content,'123')
 
 
 
@@ -107,9 +104,12 @@ class download():
                 st = i[0] + "|" + i[1] + "\r\n"
                 f.write(st)
 
+
     def downLoad(self):
+        '''
         i = input("请查看要下载的目录")
         os.system("vim ../data/log/folder")
+        '''
         with open(self.logUrl + "folder","r") as f:
             lists = f.readlines()
             for i in lists:
@@ -118,7 +118,23 @@ class download():
                 url = i[0].strip()
                 url = self.preurl + url
                 ic = self.getUrlContent(url);
-                self.getDownUrl(ic,i[1]);
+
+
+
+                while(True):
+                    curThread = threading.active_count()
+                    if curThread < 10:
+                        d = downClass()
+                        d.startNewThread(ic,i)
+                        d.start()
+                        break
+                    else:
+                        time.sleep(3)
+
+
+
+
+
 
 
 
@@ -284,6 +300,30 @@ class download():
             if name.find(j) is not False:
                 name = name.replace(j,filters[j])
         return name
+
+
+
+
+
+
+
+
+
+
+
+obj = download()
+obj.downLoad()
+print("得到列表")
+exit()
+
+
+
+
+
+
+
+
+
 
 
 
