@@ -15,6 +15,9 @@ class download():
     end = 2 #结束页
     timeout = 5
     listId = 0 #the number of webs
+
+    maxThread = 20 #最大线程数
+
     webs = [
             "woniangzi.com",
             "healthwol.com",
@@ -68,6 +71,10 @@ class download():
     def getLists(self):
         with open(self.urlFile,"w+") as f:
             f.write("")
+        with open(self.logUrl + "folder","w+") as f:
+            f.write("")
+
+
         for i in range(self.start,self.end):
             self.getOnePage(i)
         self.downLoad()
@@ -106,10 +113,8 @@ class download():
 
 
     def downLoad(self):
-        '''
         i = input("请查看要下载的目录")
         os.system("vim ../data/log/folder")
-        '''
         with open(self.logUrl + "folder","r") as f:
             lists = f.readlines()
             for i in lists:
@@ -123,13 +128,14 @@ class download():
 
                 while(True):
                     curThread = threading.active_count()
-                    if curThread < 10:
+                    if curThread < maxThread:
                         d = downClass()
+                        d.setHeader(self.headers)
                         d.startNewThread(ic,i)
                         d.start()
                         break
                     else:
-                        time.sleep(3)
+                        time.sleep(2)
 
 
 
@@ -231,6 +237,9 @@ class download():
         #print(recv.read().decode("gbk"))
 
     def genDataJs(self):
+        while(threading.active_count()>1):
+            time.sleep(2)
+
         urls = []
         with open(self.urlFile,"r+") as f:
             temp = f.readlines()
@@ -247,17 +256,6 @@ class download():
         else:
             return False
 
-    def checkRepeat(self):
-        arr = []
-        with open(self.urlFile,"r") as f:
-            urls = f.readlines()
-            for i in urls:
-                if i not in arr:
-                    arr.append(i)
-
-        with open(self.urlFile,"w") as f:
-            for i in arr:
-                f.write(i)
 
 
 
@@ -307,12 +305,9 @@ class download():
 
 
 
-
 obj = download()
 print("得到列表")
 obj.getLists()
-print("去重")
-obj.checkRepeat()
 print("生成json文件")
 obj.genDataJs()
 #obj.toFolder()
