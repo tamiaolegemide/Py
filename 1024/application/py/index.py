@@ -1,4 +1,4 @@
-#!/usr/bin/python3.10
+#!/usr/bin/python3.8
 # -*- coding: utf-8 -*-
 import re,json,os,asyncio,time,datetime,threading,html
 from datetime import date
@@ -12,7 +12,7 @@ from filters import getFilters
 
 class download():
     start = 1 #开始页
-    end = 5 #结束页
+    end = 2 #结束页
     timeout = 5
     listId = 0 #the number of webs
     webs = [
@@ -300,25 +300,6 @@ class download():
             if name.find(j) is not False:
                 name = name.replace(j,filters[j])
         return name
-
-
-
-
-
-
-
-
-
-
-
-obj = download()
-obj.downLoad()
-print("得到列表")
-exit()
-
-
-
-
 
 
 
