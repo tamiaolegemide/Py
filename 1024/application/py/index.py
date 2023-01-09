@@ -25,8 +25,6 @@ class download():
             ]
     web = webs[listId]
     preurl = "https://" + web + "/2048/"
-    #preurl = "https://nongrao.com/2048/"
-#    preurl = "https://maojinwu.com/2048/"
     cacheUrl = "../data/cache/"
     logUrl = "../data/log/"
     urlFile = logUrl + "url"
@@ -37,7 +35,6 @@ class download():
             'Host': web,
             'Referer':'https://'+ web +'/2048/thread.php?fid-3-page-1.html',
             'Cookie':'zh_choose=n; a22e7_lastvisit=317%091657608588%09%2F2048%2Fthread.php%3Ffid-3-page-1.html; a22e7_lastpos=F3; a22e7_ol_offset=241627; a22e7_threadlog=%2C3%2C',
-            #'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0',
             'Accept':'*/*',
             'Accept-Language': 'zh-CN,zh;q=0.9',
             'Accept-Encoding':'gzip,deflate,br',
@@ -125,23 +122,16 @@ class download():
                 ic = self.getUrlContent(url);
 
 
-
                 while(True):
                     curThread = threading.active_count()
-                    if curThread < maxThread:
+                    if curThread < self.maxThread:
                         d = downClass()
                         d.setHeader(self.headers)
                         d.startNewThread(ic,i)
                         d.start()
                         break
                     else:
-                        time.sleep(2)
-
-
-
-
-
-
+                        time.sleep(1)
 
 
 
