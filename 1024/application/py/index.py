@@ -1,8 +1,7 @@
 #!/usr/bin/python3.8
 # -*- coding: utf-8 -*-
-import re,json,os,asyncio,time,datetime,threading,html
+import re,json,os,asyncio,time,datetime,threading
 from datetime import date
-from downClass import downClass
 from urllib import request
 import shutil
 from filters import getFilters
@@ -11,20 +10,10 @@ from filters import getFilters
 
 
 class download():
-    start = 1 #开始页
-    end = 2 #结束页
-    timeout = 5
-    listId = 0 #the number of webs
-
-    maxThread = 20 #最大线程数
-
-    webs = [
-            "woniangzi.com",
-            "healthwol.com",
-            'woniangzi.com',
-            ]
-    web = webs[listId]
-    preurl = "https://" + web + "/2048/"
+    timeout = 20
+    preurl = "https://qiongyouzu.com/2048/"
+    preurl="https://bbs.zgogc.com/2048/"
+    preurl = "https://data.2qssj.com/2048/"
     cacheUrl = "../data/cache/"
     logUrl = "../data/log/"
     urlFile = logUrl + "url"
@@ -32,60 +21,50 @@ class download():
 
     magnetArr = []
     headers={
-            'Host': web,
-            'Referer':'https://'+ web +'/2048/thread.php?fid-3-page-1.html',
-            'Cookie':'zh_choose=n; a22e7_lastvisit=317%091657608588%09%2F2048%2Fthread.php%3Ffid-3-page-1.html; a22e7_lastpos=F3; a22e7_ol_offset=241627; a22e7_threadlog=%2C3%2C',
-            'Accept':'*/*',
-            'Accept-Language': 'zh-CN,zh;q=0.9',
-            'Accept-Encoding':'gzip,deflate,br',
-            'Alt-Used':'bbs.huieiv.com',
+            'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+            'Accept-Encoding':'gzip, deflate, br',
+            'Accept-Language':'en-US,en;q=0.5',
+            'Alt-Used':'data.2qssj.com',
             'Connection':'keep-alive',
-            'Sec-Fetch-Dest':'script',
-            'Sec-Fetch-Mode':'no-cors',
-            'Sec-Fetch-Site':'same-origin',
-            'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
-            'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.34 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-            'Accept-Encoding': 'gizp,defale',
-            'Accept-Language': 'zh-CN,zh;q=0.9'
-
-
+            'Cookie':'zh_choose=n; cf_chl_2=40396ab86c65d6c; cf_clearance=N6HhQwiDu7uD14HfhckM9X1uLmLlA5Q9rsyE.RbIbbs-1683789402-0-150; a22e7_lastvisit=0%091683789416%09%2F2048%2Findex.php; a22e7_lastpos=index; a22e7_ol_offset=69064',
+            'Host':'data.2qssj.com',
+            'Sec-Fetch-Dest':'document',
+            'Sec-Fetch-Mode':'navigate',
+            'Sec-Fetch-Site':'cross-site',
+            'TE':'trailers',
+            'Upgrade-Insecure-Requests':1,
+            'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0',
             }
     def __init__(self):
         pass
 
-
-
-    def pageUrl(self,i=False):
-        if i is False:
-            return self.preurl+ "thread.php?fid-3.html"
-        else:
-            return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
-
-
-
+    def getPageUrl(self,i):
+        return self.preurl + "thread.php?fid-3-page-"+ str(i) +".html";
 
     def getLists(self):
         with open(self.urlFile,"w+") as f:
             f.write("")
-        with open(self.logUrl + "folder","w+") as f:
-            f.write("")
 
+        for i in range(1,2):
+            url = self.getPageUrl(i);
+            fileName = str(date.today())+"-"+str(i)
+            if not self.exist(fileName):
+                content = self.getUrlContent(url)
+                if content is not False:
+                    self.writeFile(fileName,content)
+                else:
+                    self.delData()
+                    exit("无法连接服务器")
+            else:
+                content = self.readFile(fileName)
+            print("getHtmlUrl")
+            self.getHtmlUrl(content)
 
-        for i in range(self.start,self.end):
-            self.getOnePage(i)
-        self.downLoad()
-
-    def getOnePage(self,pageNum,repeat=0):
-        url = self.pageUrl(pageNum)
-        repeat+=1 
-        print("第%d页,第%d次尝试"%(pageNum,repeat))
-        content = self.getUrlContent(url)
-        if content is False:
-            self.getOnePage(pageNum,repeat)
-        return self.getDownLink(content)
-
-
+    def delData(self):
+        lists = os.listdir(self.cacheUrl)
+        for i in lists:
+            target = self.cacheUrl + i
+            os.remove(target)
 
 
     def getUrlContent(self,url):
@@ -95,15 +74,24 @@ class download():
             recv = request.urlopen(req,timeout=self.timeout)
             rs = recv.read().decode()
         except Exception:
+            print(req)
+            print(rs)
             pass
+
         return rs 
 
 
-    def getDownLink(self,content=''):
+    def getHtmlUrl(self,content=''):
         #<a href="state/p/3/2209/7457042.html" target="_blank" id="a_ajax_7457042" class="subject">▲小隻馬▲新片首发▲最強有碼合集♂[0914]</a>&nbsp; </td>
         string = re.findall('<a href="(state.*?)".*?>(.*?)<',str(content))
         #string = ['state/p/3/2207/6713225.html']
-        with open(self.logUrl + "folder","a+") as f:
+
+
+        with open(self.logUrl + "folder","w+") as f:
+            for i in string:
+                st = i[0] + "|" + i[1] + "\r\n"
+                f.write(st)
+
             for i in string:
                 st = i[0] + "|" + i[1] + "\r\n"
                 f.write(st)
@@ -114,24 +102,30 @@ class download():
         os.system("vim ../data/log/folder")
         with open(self.logUrl + "folder","r") as f:
             lists = f.readlines()
+
+
             for i in lists:
                 i = i.split("|")
+
+                while(self.overMax()):
+                    time.sleep(1)
 
                 url = i[0].strip()
                 url = self.preurl + url
                 ic = self.getUrlContent(url);
+                d = downClass()
+                d.setHeader(self.headers)
+                d.startNewThread(ic,i)
+                d.start()
 
 
-                while(True):
-                    curThread = threading.active_count()
-                    if curThread < self.maxThread:
-                        d = downClass()
-                        d.setHeader(self.headers)
-                        d.startNewThread(ic,i)
-                        d.start()
-                        break
-                    else:
-                        time.sleep(1)
+
+    def overMax(self):
+        curThread = threading.active_count()
+        if curThread >= self.maxThread :
+            return True 
+        else:
+            return False
 
 
 
@@ -211,41 +205,26 @@ class download():
                     temp = re.sub("var.*","",temp)
                     content = content  +"\r\n   "+ temp
 
-        except BaseException as e:
-            with open("./error","a+") as d:
-                d.write("解误失败|"+i[1]+"|"+i[0]+"\r\n")
-                d.close()
-        try:
-            with open("./novel/"+filename+".txt","w") as f:
-                f.write(content)
-                f.close()
-        except BaseException as e:
-            with open("./error","a+") as d:
-                d.write("保存失败|"+i[1]+"|"+i[0]+"\r\n")
-                d.close()
+                with open(url,"r") as f:
+                    return f.read()
+            else:
+                return False
+        except e:
+            pass
 
-        #print(recv.read().decode("gbk"))
 
-    def genDataJs(self):
-        while(threading.active_count()>1):
-            time.sleep(2)
 
-        urls = []
-        with open(self.urlFile,"r+") as f:
-            temp = f.readlines()
-            rs = "var data = " + json.dumps(temp) + ";";
-        with open(self.dataFile,"w") as f:
-            f.write(rs)
+    def checkRepeat(self):
+        arr = []
+        with open(self.urlFile,"r") as f:
+            urls = f.readlines()
+            for i in urls:
+                if i not in arr:
+                    arr.append(i)
 
-    def readFile(self,name):
-        url = self.cacheUrl + name
-        rs = os.path.exists(url)
-        if rs == True:
-            with open(url,"r") as f:
-                return f.read()
-        else:
-            return False
-
+        with open(self.urlFile,"w") as f:
+            for i in arr:
+                f.write(i)
 
 
 
@@ -287,17 +266,16 @@ class download():
         for j in filters:
             if name.find(j) is not False:
                 name = name.replace(j,filters[j])
+        print(name)
         return name
 
 
 
-
-
-
-
 obj = download()
-print("得到列表")
+print("getLists")
 obj.getLists()
-print("生成json文件")
+print("checkRepeat")
+obj.checkRepeat()
+print("genDataJs")
 obj.genDataJs()
 #obj.toFolder()

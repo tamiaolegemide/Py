@@ -1,6 +1,6 @@
 #!/usr/bin/python3.8
 # -*- coding: utf-8 -*-
-import re,json,os,asyncio,time,datetime,threading,html
+import re,json,os,asyncio,time,datetime,threading,html,ssl
 from datetime import date
 from urllib import request
 import shutil
@@ -79,6 +79,7 @@ class downClass(threading.Thread):
 
     def getUrlContent(self,url):
         rs = False
+        ssl._create_default_https_context = ssl._create_unverified_context
         try:
             req = request.Request(url,headers=self.headers)
             recv = request.urlopen(req,timeout=self.timeout)
