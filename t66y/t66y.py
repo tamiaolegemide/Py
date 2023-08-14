@@ -40,13 +40,19 @@ class t66y(threading.Thread):
             pageContent = self.download(pageurl);
             matchs = re.search("http://www.rmdown.com/.*?\"",pageContent)
             if matchs is not None:
-                with open("./link","a+") as fs:
-                    link = matchs.group()
-                    link = link.replace("\"","")
-                    print(link)
-                    fs.write(link+"\n")
-                    exit()
-                    time.sleep(2)
+
+
+                downPageLink = matchs.group()
+                downPageLink= downPageLink.replace("\"","")
+                content = self.download(downPageLink)
+
+                matchs = re.findall("value=\"(.{30,44})\"",content)
+                if len(matchs) >0:
+                    magnetLink = matchs[0][3:]
+                    magnetLink = "magnet:?xt=urn:btih:"+magnetLink
+                    with open("./link","a+") as fs:
+                        fs.write(magnetLink+"\n")
+                        time.sleep(2)
 
 
 
@@ -69,3 +75,6 @@ pageUrl = "https://t66y.com/thread0806.php?fid=5"
 obj = t66y()
 obj.pageList(pageUrl)
 
+pageUrl = "https://t66y.com/thread0806.php?fid=15"
+obj = t66y()
+obj.pageList(pageUrl)
