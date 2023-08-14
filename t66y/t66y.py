@@ -20,26 +20,11 @@ class t66y(threading.Thread):
     def __init__(self):
         pass
 
-    def getLists(self):
-        pre = "https://cb.wpio.xyz/thread0806.php?fid=20&search=&page="
-
-
-        for i in range(21,25):
-            url = pre + str(i)
-            req = request.Request(url,headers=self.headers)
-            recv = request.urlopen(req,timeout=10)
-            self.getPage(recv.read().decode("gbk"))
-
-
     def pageList(self,pageListUrl):
         self.pageListUrl = pageListUrl
         for i in range(self.startPage,self.startLen+1):
-            url = "https://t66y.com/thread0806.php?fid=15&search=&page=" + str(i)
-            url = "https://t66y.com/thread0806.php?fid=5&search=&page=" + str(i)
+            url = pageListUrl +"search=&page=" + str(i)
             self.getPageUrl(url)
-
-
-
 
     def getPageUrl(self,url):
         print("START:  " + url)
@@ -60,16 +45,10 @@ class t66y(threading.Thread):
                     link = link.replace("\"","")
                     print(link)
                     fs.write(link+"\n")
+                    exit()
+                    time.sleep(2)
 
 
-
-
-
-    def save(self,urls):
-        with open("url","w") as f:
-            for i in urls:
-                f.write(i)
-            f.close()
 
 
 
@@ -85,7 +64,8 @@ class t66y(threading.Thread):
         #print(recv.read().decode("gbk"))
 
 
-pageUrl = "//https://t66y.com/thread0806.php?fid=15"
+#pageUrl = "https://t66y.com/thread0806.php?fid=15"
+pageUrl = "https://t66y.com/thread0806.php?fid=5"
 obj = t66y()
 obj.pageList(pageUrl)
 
