@@ -40,12 +40,9 @@ class t66y(threading.Thread):
             pageContent = self.download(pageurl);
             matchs = re.search("http://www.rmdown.com/.*?\"",pageContent)
             if matchs is not None:
-
-
                 downPageLink = matchs.group()
                 downPageLink= downPageLink.replace("\"","")
                 content = self.download(downPageLink)
-
                 matchs = re.findall("value=\"(.{30,44})\"",content)
                 if len(matchs) >0:
                     magnetLink = matchs[0][3:]
